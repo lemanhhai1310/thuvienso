@@ -1,0 +1,7 @@
+$j:260px,326px,350px,380px,810px,1063px,1364px;
+@each $i in $j {
+  .width-#{$i}{
+    max-width: 100%;
+    width: #{$i};
+  }
+}

@@ -1,0 +1,16 @@
+.position-30 {
+  --uk-position-margin-offset: 30px;
+  margin: var(--uk-position-margin-offset);
+}
+.position-16 {
+  --uk-position-margin-offset: 16px;
+  margin: var(--uk-position-margin-offset);
+}
+.position-160 {
+  --uk-position-margin-offset: 160px;
+  margin: var(--uk-position-margin-offset);
+}
+.position-center {
+  --uk-position-margin-offset: -40px;
+  margin: var(--uk-position-margin-offset);
+}

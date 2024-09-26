@@ -1,0 +1,10 @@
+$j:
+6px,7px,8px,12px,15px,22px,28px,32px,50px,
+100px;
+@each $i in $j {
+  .item-#{$i}{
+    &:nth-child(n+2){
+      @include margin-top($i);
+    }
+  }
+}
