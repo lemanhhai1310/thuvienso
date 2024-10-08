@@ -66,7 +66,7 @@
                             <label class="dangnhap__form__checkLabel"><input class="uk-checkbox" type="checkbox" checked> <span class="fz-14 be-vietnam-pro-medium" style="color: #6B6B6B;">Ghi nhớ tôi</span></label>
                         </div>
                         <div class="uk-width-auto">
-                            <div class="uk-text-center fz-14 be-vietnam-pro-medium" style="color: #6B6B6B;"><a href="" style="text-decoration: underline; color: #000;" class="be-vietnam-pro-semibold">Quên mật khẩu</a></div>
+                            <div class="uk-text-center fz-14 be-vietnam-pro-medium" style="color: #6B6B6B;"><a href="quenmatkhau.php" style="text-decoration: underline; color: #000;" class="be-vietnam-pro-semibold">Quên mật khẩu</a></div>
                         </div>
                     </div>
                     <a href="" class="dangnhap__btn1 dangnhap__btn1--c2 uk-button uk-button-primary uk-border-pill uk-width uk-margin-top">
