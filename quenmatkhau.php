@@ -43,8 +43,29 @@
         </div>
     </div>
 </div>
+
 <script>
     const element = document.getElementById("modal-close-forgotpass");
     UIkit.modal(element).show();
+
+    let message = '<div class="uk-grid uk-grid-12" uk-grid>\n' +
+        '    <div class="uk-width-auto">\n' +
+        '        <div class="uk-cover-container uk-border-circle" style="background: #D3FDE1;">\n' +
+        '            <span class="uk-position-center icon20 icon20--check"></span>\n' +
+        '            <canvas width="32" height="32"></canvas>\n' +
+        '        </div>\n' +
+        '    </div>\n' +
+        '    <div class="uk-width-expand">\n' +
+        '        <div class="fz-14 be-vietnam-pro-medium" style="color: #1F2329;">Yêu Cầu Đặt Lại Mật Khẩu Đã Được Gửi!</div>\n' +
+        '        <div class="item-8px be-vietnam-pro-regular fz-14" style="color: #4B5563;">Chúng tôi đã gửi một email chứa hướng dẫn đặt lại mật khẩu đến địa chỉ email của bạn. Vui lòng kiểm tra hộp thư đến hoặc thư mục spam.</div>\n' +
+        '        <div class="item-16px"><a href="" class="uk-close fz-14 be-vietnam-pro-semibold" style="color: #000;text-decoration-line: underline;">Đóng</a></div>\n' +
+        '    </div>\n' +
+        '</div>'
+    UIkit.notification({
+        'message': message,
+        'timeout': 0,
+        'pos': 'top-right',
+        'status': 'success',
+    });
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>
