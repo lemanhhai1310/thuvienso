@@ -2,6 +2,10 @@
   --uk-position-margin-offset: 30px;
   margin: var(--uk-position-margin-offset);
 }
+.position-20 {
+  --uk-position-margin-offset: 20px;
+  margin: var(--uk-position-margin-offset);
+}
 .position-16 {
   --uk-position-margin-offset: 16px;
   margin: var(--uk-position-margin-offset);
@@ -13,4 +17,13 @@
 .position-center {
   --uk-position-margin-offset: -40px;
   margin: var(--uk-position-margin-offset);
+}
+.z-index-991{
+  z-index: 991;
+}
+.z-index-992{
+  z-index: 992;
+}
+.z-index-993{
+  z-index: 993;
 }

@@ -1,4 +1,21 @@
 .common{
+  &__slideshownav{
+    >*{
+      >*{
+        width: 11px;
+        height: 11px;
+        //background: rgba(0, 0, 0, 0.60);
+        //border: none;
+      }
+      &.uk-active{
+        >*{
+          //width: 12px;
+          //height: 12px;
+          background: var(--brand-color);
+        }
+      }
+    }
+  }
   &__dotnav{
     align-items: center;
     margin-top: 32px !important;

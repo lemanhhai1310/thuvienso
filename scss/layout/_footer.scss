@@ -1,0 +1,32 @@
+.footer{
+  &__top{
+    background: #1B1B1B;
+    &__hotline{
+      background: var(--brand-color, linear-gradient(277deg, #FFC01F 0%, #FFF38C 135.52%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    &__timeTxt{
+
+    }
+    &__mailTxt{
+      color: #fff !important;
+    }
+    &__nav{
+      >li{
+        >a{
+          @extend .be-vietnam-pro-semibold;
+        }
+      }
+    }
+  }
+  &__bottom{
+    background: #000;
+    &__txt{
+      a{
+        color: #0CB0A7;
+      }
+    }
+  }
+}

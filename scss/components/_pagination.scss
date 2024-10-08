@@ -1,0 +1,29 @@
+.pagination {
+  gap: 10px;
+  >*{
+    >*{
+      color: #000;
+      border-radius: 50%;
+      padding: 0;
+      width: 32px;
+      height: 32px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      @extend .fz-12;
+      @extend .be-vietnam-pro-regular;
+    }
+    &.uk-disabled {
+      >*{
+
+      }
+    }
+    &:hover,
+    &.uk-active{
+      >*{
+        color: #966412;
+        background: var(--brand-color);
+      }
+    }
+  }
+}

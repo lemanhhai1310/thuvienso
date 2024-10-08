@@ -35,6 +35,8 @@
 @import 'components/border';
 @import 'components/line-height';
 @import 'components/row-gap';
+@import 'components/divider';
+@import 'components/icons';
 
 @import 'layout/navigation';
 @import 'layout/grid';
@@ -42,10 +44,14 @@
 @import 'layout/footer';
 @import 'layout/sidebar';
 @import 'layout/forms';
+@import 'layout/slideshow';
 
 @import 'pages/home';
 @import 'pages/about';
 @import 'pages/contact';
+@import 'pages/cuahang';
+@import 'pages/chi_tiet_sach';
+@import 'pages/dangnhap';
 
 @import 'themes/theme';
 @import 'themes/admin';

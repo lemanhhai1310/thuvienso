@@ -16,7 +16,7 @@
             'Albert Flores',
             'Leslie Alexander',
         ];
-        for ($i = 0; $i < 12; $i++) { ?>
+        for ($i = 0; $i < count($name); $i++) { ?>
             <div class="uk-inline-clip uk-transition-toggle">
                 <div class="uk-cover-container border-16">
                     <img class="uk-transition-scale-up uk-transition-opaque" src="about:blank" uk-img data-src="https://picsum.photos/280/430/?random=<?= $i ?>" alt="" uk-cover>

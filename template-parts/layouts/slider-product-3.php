@@ -18,10 +18,13 @@
                     'Floyd Miles',
                     'Albert Flores',
                     'Leslie Alexander',
+                    'Marvin McKinney',
+                    'Kristin Watson',
+                    'Albert Flores',
                 ];
                 $num = 0;
                 $post_per_page = 8;
-                $counter = 15;
+                $counter = count($name);
                 for ($i = 0; $i < $counter; $i++) { ?>
                     <?php if ($num % $post_per_page == 0): ?>
                     <div><div class="uk-child-width-1-4 uk-grid-20" uk-grid>

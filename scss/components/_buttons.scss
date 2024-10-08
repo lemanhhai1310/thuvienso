@@ -1,0 +1,8 @@
+.button {
+  &--1{
+    @extend .header__center__btn;
+    line-height: 46px !important;
+    background: var(--brand-color);
+    padding: 0 24px !important;
+  }
+}

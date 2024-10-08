@@ -1,4 +1,10 @@
 .home{
+  &__banner2{
+    &__overlay{
+      border-radius: var(----f1-number-20, 20px);
+      background: linear-gradient(0deg, rgba(34, 61, 77, 0.50) 0%, rgba(34, 61, 77, 0.50) 100%);
+    }
+  }
   &__category{
     &__item{
       padding: 12px 0;

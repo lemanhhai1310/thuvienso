@@ -16,3 +16,15 @@
 .space-h-24 {
   @include min-height(24px);
 }
+.space-h-20 {
+  @include min-height(20px);
+}
+.space-h-12 {
+  @include min-height(12px);
+}
+.space-h-10 {
+  @include min-height(10px);
+}
+.space-h-9 {
+  @include min-height(9px);
+}

@@ -1,0 +1,62 @@
+.chi_tiet_sach {
+  &__tab{
+    >*{
+      >a{
+        color: #999;
+        width: 218px;
+        padding: 0;
+        padding-bottom: 12px;
+        text-transform: inherit;
+        @extend .be-vietnam-pro-semibold;
+        @extend .fz-16;
+        @extend .line-height-175;
+        &:hover{
+
+        }
+      }
+      &.uk-active{
+        >a{
+          color: #000;
+          border-color: #0CB0A7;
+        }
+      }
+    }
+  }
+  &__table{
+    border: 1px solid #e5e5e5;
+    td{
+      padding: 5px 0;
+    }
+    tr{
+
+    }
+  }
+  &__label{
+    padding: 0 7px;
+    min-height: 30px;
+    display: inline-flex;
+    align-items: center;
+    background: rgba(130, 209, 117, 0.20);
+    color: #2BA117;
+  }
+  &__link1{
+    color: #999 !important;
+    &:hover{
+      color: #666 !important;
+    }
+  }
+  &__social{
+    &__icon{
+      width: 34px;
+      height: 34px;
+      background: var(--background);
+      color: #fff !important;
+      &:hover{
+
+      }
+    }
+  }
+}
+.border-left{
+  border-left: 1px solid #E6E6E6;
+}

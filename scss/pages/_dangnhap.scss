@@ -1,0 +1,47 @@
+.dangnhap {
+  &__form{
+    &__checkLabel{
+      @extend .cuahang__fillter__labelCheck;
+    }
+    &__input{
+      @extend .fz-14;
+      @extend .be-vietnam-pro-semibold;
+      background: #F6F6F6;
+      border: 1px solid #F6F6F6;
+      &:focus{
+        border-color: #FC0;
+      }
+      &::placeholder{
+        color: #9A96AA;
+      }
+    }
+    &__icon{
+      $x:50px;
+      width: #{$x};
+      &:not(.uk-form-icon-flip){
+        ~ .uk-input{
+          padding-left: #{$x} !important;
+        }
+      }
+      &.uk-form-icon-flip{
+        ~ .uk-input{
+          padding-right: #{$x} !important;
+        }
+      }
+    }
+  }
+  &__btn1{
+    &--c1{
+      background-color: #F6F6F6 !important;
+    }
+    &--c2{
+      background: var(--brand-color);
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    text-transform: inherit;
+    gap: 12px;
+  }
+}

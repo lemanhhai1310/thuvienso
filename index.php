@@ -1,18 +1,28 @@
 <?php $data["title"] = "Home"; ?>
+<?php $isHome = true; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
     <div class="space-h-30"></div>
     <div class="uk-container">
         <div class="uk-grid uk-grid-20 uk-grid-match" uk-grid>
             <div class="uk-width-auto">
-                <div class="width-260px" style="width: 260px;"></div>
+                <div class="width-260px" style="width: 260px;">
+                    <?php require "template-parts/layouts/categories-nav.php"; ?>
+                </div>
             </div>
             <div class="uk-width-expand">
-
+                <?php require "template-parts/layouts/slideshow.php"; ?>
             </div>
             <div class="uk-width-auto">
-                <div class="width-260px" style="width: 260px;">
-
+                <div class="width-260px uk-light uk-cover-container border-20" style="width: 260px;">
+                    <img src="about:blank" uk-img data-src="images/banner/bg2.png" alt="" uk-cover="">
+                    <canvas width="260" height="548"></canvas>
+                    <div class="uk-position-cover home__banner2__overlay"></div>
+                    <div class="width-178px fz-14 be-vietnam-pro-semibold uk-position-bottom-center uk-position-medium uk-text-center">
+                        “Sách viễn tưởng hay nhất mọi thời đại...”
+                        <span class="fz-12">-Mr. Anonymous</span>
+                    </div>
+                    <a href="" class="uk-position-cover"></a>
                 </div>
             </div>
         </div>
@@ -104,7 +114,13 @@
                         <div class="uk-width-auto">
                             <div class="uk-text-right home__luotdoc__card__txt2 line-height-170 fz-14 be-vietnam-pro-semibold">Nhanh tay trước khi hết nhé</div>
                             <div class="uk-margin-small-top uk-border-pill home__luotdoc__card__countdown be-vietnam-pro-semibold">
-                                <div class="uk-grid-small uk-grid-2 uk-child-width-auto uk-flex-middle" uk-grid uk-countdown="date: 2024-10-03T11:33:36+00:00">
+                                <?php
+                                $datetime = new DateTime();
+                                date_add($datetime, date_interval_create_from_date_string("7 days"));
+                                $date = $datetime->format('c');
+                                //echo $datetime->format('c');
+                                ?>
+                                <div class="uk-grid-small uk-grid-2 uk-child-width-auto uk-flex-middle" uk-grid uk-countdown="date: <?= $date ?>">
                                     <div>
                                         <div class="uk-countdown-number uk-countdown-days fz-24"></div>
                                     </div>

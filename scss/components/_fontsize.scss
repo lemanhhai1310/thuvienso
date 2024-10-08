@@ -1,3 +1,12 @@
+.fz-10{
+  @include font-size(10px);
+}
+.fz-12{
+  @include font-size(12px);
+}
+.fz-14{
+  @include font-size(14px);
+}
 .fz-16{
   @include font-size(16px);
 }
@@ -16,15 +25,18 @@
 .fz-26{
   @include font-size(26px);
 }
+.fz-30{
+  @include font-size(30px);
+}
+.fz-34{
+  @include font-size(34px);
+}
 .fz-36{
   @include font-size(36px);
 }
-.fz-12{
-  @include font-size(12px);
-}
-.fz-14{
-  @include font-size(14px);
-}
 .fz-44{
   @include font-size(44px);
+}
+.fz-54{
+  @include font-size(54px);
 }

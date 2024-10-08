@@ -38,4 +38,25 @@ const app = {
 window.addEventListener("load", ()=>{
     console.log("page is fully loaded");
     app.start();
+
+    UIkit.util.on('.header__bottom__dropdown', 'show', function () {
+        // do something
+        // $('.mask_menu').fadeIn(300);
+    });
+
+    UIkit.util.on('.header__bottom__dropdown', 'hide', function () {
+        // do something
+        // $('.mask_menu').stop(true, true).fadeOut(300);
+    });
 })
+
+$(window).on("load", function (e) {
+    $('.header__bottom__boxCat, #box_acc').hover(
+        function () {
+            $('.mask_menu').fadeIn(300);
+        },
+        function () {
+            $('.mask_menu').stop(true, true).fadeOut(300);
+        }
+    );
+});
