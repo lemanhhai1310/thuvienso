@@ -80,7 +80,7 @@
                             </label>
                         </div>
                     </div>
-                    <a href="" class="dangnhap__btn1 dangnhap__btn1--c2 uk-button uk-button-primary uk-border-pill uk-width uk-margin-top">
+                    <a href="dangky-success.php" class="dangnhap__btn1 dangnhap__btn1--c2 uk-button uk-button-primary uk-border-pill uk-width uk-margin-top">
                         <span class="fz-16 be-vietnam-pro-semibold" style="color: #000;">Đăng ký</span>
                     </a>
                     <div class="uk-text-center fz-14 be-vietnam-pro-medium uk-margin-top" style="color: #6B6B6B;">Bạn đã có tài khoản? <a href="dangnhap.php" style="text-decoration: underline; color: #000;" class="be-vietnam-pro-semibold">Đăng nhập</a></div>

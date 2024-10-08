@@ -1,3 +1,21 @@
 .dangky {
+  &__check1{
+    display: none;
+  }
+  &__label{
+    padding: 0 12px;
+    text-transform: inherit;
+    background: #E6E6E6;
+    color: #4B5563;
+    @extend .be-vietnam-pro-medium;
+    @extend .fz-14;
+    .dangky__check1:checked ~ &,
+    &:hover {
+      background-color: #E40362;
+      color: #fff;
+    }
+    .dangky__check1:checked ~ &{
 
+    }
+  }
 }

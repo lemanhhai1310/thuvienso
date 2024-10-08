@@ -26,7 +26,7 @@
   font-style: normal;
 }
 
-.be-vietnam-pro-medium {
+.be-vietnam-pro-medium, .dangky__label {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1406,6 +1406,15 @@
   }
 }
 
+.space-h-44 {
+  min-height: calc(1.4rem + 1.8vw);
+}
+@media (min-width: 1200px) {
+  .space-h-44 {
+    min-height: 2.75rem;
+  }
+}
+
 .space-h-40 {
   min-height: calc(1.375rem + 1.5vw);
 }
@@ -1457,7 +1466,7 @@
   font-size: 0.75rem;
 }
 
-.fz-14, .dangnhap__form__input, .cuahang__fillter__moreLink {
+.fz-14, .dangky__label, .dangnhap__form__input, .cuahang__fillter__moreLink {
   font-size: 0.875rem;
 }
 
@@ -2397,6 +2406,20 @@
 }
 .dangnhap__btn1--c2 {
   background: var(--brand-color);
+}
+
+.dangky__check1 {
+  display: none;
+}
+.dangky__label {
+  padding: 0 12px;
+  text-transform: inherit;
+  background: #E6E6E6;
+  color: #4B5563;
+}
+.dangky__check1:checked ~ .dangky__label, .dangky__label:hover {
+  background-color: #E40362;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

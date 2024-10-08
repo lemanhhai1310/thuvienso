@@ -7,6 +7,9 @@
 .space-h-50 {
   @include min-height(50px);
 }
+.space-h-44 {
+  @include min-height(44px);
+}
 .space-h-40 {
   @include min-height(40px);
 }
