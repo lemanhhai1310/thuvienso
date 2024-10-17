@@ -1,5 +1,6 @@
 <?php $data["title"] = "Home"; ?>
 <?php $isHome = true; ?>
+<?php $isLogin = false; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
     <div class="space-h-30"></div>

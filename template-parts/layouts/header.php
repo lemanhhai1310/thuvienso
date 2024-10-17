@@ -232,11 +232,24 @@
                                         Giỏ hàng
                                     </a>
                                 </div>
-                                <div>
-                                    <a href="dangnhap.php" class="header__center__btn header__center__btn--login uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
-                                        Đăng nhập
-                                    </a>
-                                </div>
+                                <?php if (isset($isLogin) && $isLogin): ?>
+                                    <div>
+                                        <a href="sachdamua.php" style="padding-left: 5px;" class="header__center__btn header__center__btn--login uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
+                                            <div class="uk-cover-container uk-border-circle uk-flex-inline">
+                                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                                <canvas width="34" height="34"></canvas>
+                                            </div>
+                                            Nguyễn Trung Kiên
+                                        </a>
+                                    </div>
+                                <?php else: ?>
+                                    <div>
+                                        <a href="dangnhap.php" class="header__center__btn header__center__btn--login uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
+                                            <span class="icon20 icon20--login"></span>
+                                            Đăng nhập
+                                        </a>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>

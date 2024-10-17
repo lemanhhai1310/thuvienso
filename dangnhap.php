@@ -1,5 +1,6 @@
 <?php $data["title"] = "Đăng nhập"; ?>
 <?php $isHome = false; ?>
+<?php $isLogin = false; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-height-viewport"></div>
@@ -69,7 +70,7 @@
                             <div class="uk-text-center fz-14 be-vietnam-pro-medium" style="color: #6B6B6B;"><a href="quenmatkhau.php" style="text-decoration: underline; color: #000;" class="be-vietnam-pro-semibold">Quên mật khẩu</a></div>
                         </div>
                     </div>
-                    <a href="" class="dangnhap__btn1 dangnhap__btn1--c2 uk-button uk-button-primary uk-border-pill uk-width uk-margin-top">
+                    <a href="dadangnhap.php" class="dangnhap__btn1 dangnhap__btn1--c2 uk-button uk-button-primary uk-border-pill uk-width uk-margin-top">
                         <span class="fz-16 be-vietnam-pro-semibold" style="color: #000;">Đăng nhập</span>
                     </a>
                     <div class="space-h-12"></div>

@@ -1,0 +1,25 @@
+.sidebar-left {
+  &__card{
+    padding: 28px 20px;
+  }
+  &__nav{
+    &__li{
+
+    }
+    &__a{
+      @extend .line-height-128;
+      column-gap: 11px !important;
+      padding: 10px 0 !important;
+      color: #4B5563 !important;
+      @extend .fz-14;
+      @extend .be-vietnam-pro-medium;
+      &:hover{
+        color: #966412 !important;
+      }
+      .uk-active> &{
+        @extend .be-vietnam-pro-semibold;
+        color: #966412 !important;
+      }
+    }
+  }
+}

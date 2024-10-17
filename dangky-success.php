@@ -1,5 +1,6 @@
 <?php $data["title"] = "Đăng ký thành công"; ?>
 <?php $isHome = false; ?>
+<?php $isLogin = true; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-height-viewport"></div>

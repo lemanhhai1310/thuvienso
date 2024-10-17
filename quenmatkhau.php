@@ -1,5 +1,6 @@
 <?php $data["title"] = "Quên mật khẩu"; ?>
 <?php $isHome = false; ?>
+<?php $isLogin = false; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-height-viewport"></div>

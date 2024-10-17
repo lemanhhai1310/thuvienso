@@ -1,5 +1,6 @@
 <?php $data["title"] = "Chi tiết sách R3"; ?>
 <?php $isHome = false; ?>
+<?php $isLogin = false; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-container">
@@ -61,193 +62,415 @@
             </div>
         </div>
         <div class="uk-width-expand">
-            <div class="uk-flex-middle uk-grid" uk-grid>
-                <div class="uk-width-expand">
-                    <label class="chi_tiet_sach__label fz-12 sora-300 uk-label uk-label-success border-8">Sẵn hàng</label>
-                </div>
-                <div class="uk-width-auto">
-                    <div class="uk-flex-middle uk-grid-20 uk-grid" uk-grid>
-                        <div>
-                            <a href="" class="chi_tiet_sach__link1 fz-12 uk-link-toggle uk-flex uk-flex-middle uk-text-uppercase be-vietnam-pro-regular" style="gap: 4px;">
-                                <span class="cuahang__icon cuahang__icon--prev"></span>
-                                Quay lại
-                            </a>
-                        </div>
-                        <div>
-                            <a href="" class="chi_tiet_sach__link1 fz-12 uk-link-toggle uk-flex uk-flex-middle uk-text-uppercase be-vietnam-pro-regular" style="gap: 4px;">
-                                Tiếp
-                                <span class="cuahang__icon cuahang__icon--next"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="space-h-9"></div>
-            <h1 class="fz-36 sora-600 line-height-122 uk-margin-remove">The Girl and the Last Sleepover</h1>
-            <div class="space-h-9"></div>
-            <div class="uk-grid-divider uk-grid-small uk-flex-middle" uk-grid>
-                <div>
-                    <div class="be-vietnam-pro-medium fz-12" style="color: #999;">Author: <span style="color: #000;">Suzanne Casey</span></div>
-                </div>
-                <div>
-                    <div class="uk-grid uk-flex-middle uk-grid-10" uk-grid>
-                        <div>
-                            <div class="uk-flex uk-flex-middle" style="gap: 2px">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
-                                    <g clip-path="url(#clip0_2209_13567)">
-                                        <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_2209_13567">
-                                            <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
-                                    <g clip-path="url(#clip0_2209_13567)">
-                                        <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_2209_13567">
-                                            <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
-                                    <g clip-path="url(#clip0_2209_13567)">
-                                        <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_2209_13567">
-                                            <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
-                                    <g clip-path="url(#clip0_2209_13567)">
-                                        <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_2209_13567">
-                                            <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
-                                    <g clip-path="url(#clip0_2209_13567)">
-                                        <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_2209_13567">
-                                            <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="be-vietnam-pro-medium fz-12 uk-text-uppercase" style="color: #999;"><span style="color: #000;">5</span></div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="be-vietnam-pro-medium fz-12 uk-text-uppercase" style="color: #999;">SKU: <span style="color: #000;">int280</span></div>
-                </div>
-            </div>
-            <div class="space-h-20"></div>
-            <div class="divider"></div>
-            <div class="space-h-20"></div>
-            <div class="fz-20 sora-600 line-height-140" style="color: #0CB0A7;">179.000đ-379.000đ</div>
-            <div class="space-h-20"></div>
-            <div class="be-vietnam-pro-light line-height-171 fz-14" style="color: #444;">Nihil quo dolorum debitis velit qui et inventore. Delectus aut occaecati sunt mollitia illo.
-                Odio velit mollitia ipsam explicabo nisi quisquam dolore non. Rem omnis consectetur et
-                ea.</div>
-            <div class="space-h-20"></div>
-            <h2 class="fz-14 sora-400 line-height-171 uk-margin-remove" style="color: #999;">Danh sách sản phẩm</h2>
-            <div style="padding: 13px 18px;" class="item-8px border-8 uk-background-muted uk-padding-small">
-                <div uk-grid>
+            <div uk-sticky="offset: 72;start: 1;end: !.uk-grid;">
+                <div class="uk-flex-middle uk-grid" uk-grid>
                     <div class="uk-width-expand">
-                        <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                        <label class="chi_tiet_sach__label fz-12 sora-300 uk-label uk-label-success border-8">Sẵn hàng</label>
+                    </div>
+                    <div class="uk-width-auto">
+                        <div class="uk-flex-middle uk-grid-20 uk-grid" uk-grid>
                             <div>
-                                <span class="cuahang__icon cuahang__icon--sachgiay"></span>
+                                <a href="" class="chi_tiet_sach__link1 fz-12 uk-link-toggle uk-flex uk-flex-middle uk-text-uppercase be-vietnam-pro-regular" style="gap: 4px;">
+                                    <span class="cuahang__icon cuahang__icon--prev"></span>
+                                    Quay lại
+                                </a>
                             </div>
                             <div>
-                                <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách giấy</div>
+                                <a href="" class="chi_tiet_sach__link1 fz-12 uk-link-toggle uk-flex uk-flex-middle uk-text-uppercase be-vietnam-pro-regular" style="gap: 4px;">
+                                    Tiếp
+                                    <span class="cuahang__icon cuahang__icon--next"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-h-9"></div>
+                <h1 class="fz-36 sora-600 line-height-122 uk-margin-remove">The Girl and the Last Sleepover</h1>
+                <div class="space-h-9"></div>
+                <div class="uk-grid-divider uk-grid-small uk-flex-middle" uk-grid>
+                    <div>
+                        <div class="be-vietnam-pro-medium fz-12" style="color: #999;">Author: <span style="color: #000;">Suzanne Casey</span></div>
+                    </div>
+                    <div>
+                        <div class="uk-grid uk-flex-middle uk-grid-10" uk-grid>
+                            <div>
+                                <div class="uk-flex uk-flex-middle" style="gap: 2px">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                        <g clip-path="url(#clip0_2209_13567)">
+                                            <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2209_13567">
+                                                <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                        <g clip-path="url(#clip0_2209_13567)">
+                                            <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2209_13567">
+                                                <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                        <g clip-path="url(#clip0_2209_13567)">
+                                            <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2209_13567">
+                                                <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                        <g clip-path="url(#clip0_2209_13567)">
+                                            <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2209_13567">
+                                                <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                        <g clip-path="url(#clip0_2209_13567)">
+                                            <path d="M6.16992 0L7.51701 4.1459H11.8763L8.34955 6.7082L9.69663 10.8541L6.16992 8.2918L2.64321 10.8541L3.99029 6.7082L0.463583 4.1459H4.82284L6.16992 0Z" fill="#FFCC00"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2209_13567">
+                                                <rect width="12" height="12" fill="white" transform="translate(0.169922)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
                             </div>
                             <div>
-                                <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #444;">(Tồn: 143)</div>
+                                <div class="be-vietnam-pro-medium fz-12 uk-text-uppercase" style="color: #999;"><span style="color: #000;">5</span></div>
                             </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="be-vietnam-pro-medium fz-12 uk-text-uppercase" style="color: #999;">SKU: <span style="color: #000;">int280</span></div>
+                    </div>
+                </div>
+                <div class="space-h-20"></div>
+                <div class="divider"></div>
+                <div class="space-h-20"></div>
+                <div class="uk-grid uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <div class="fz-20 sora-600 line-height-140" style="color: #0CB0A7;">179.000đ-379.000đ</div>
+                    </div>
+                    <div class="uk-width-auto">
+                        <div class="uk-grid uk-flex-middle uk-grid-8" uk-grid>
+                            <div>
+                                <a href="" class="chi_tiet_sach__btn1 uk-button uk-button-primary uk-border-pill">
+                                    <span class="be-vietnam-pro-semibold fz-16" style="color: #966412;">ĐỌC THỬ</span>
+                                    <span class="icon24 icon24--docthu"></span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="chi_tiet_sach__btn1 uk-button uk-button-primary uk-border-pill">
+                                    <span class="be-vietnam-pro-semibold fz-16" style="color: #966412;">NGHE THỬ</span>
+                                    <span class="icon24 icon24--nghethu"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-h-20"></div>
+                <div class="be-vietnam-pro-light line-height-171 fz-14" style="color: #444;">Nihil quo dolorum debitis velit qui et inventore. Delectus aut occaecati sunt mollitia illo.
+                    Odio velit mollitia ipsam explicabo nisi quisquam dolore non. Rem omnis consectetur et
+                    ea.</div>
+                <div class="space-h-20"></div>
+                <h2 class="fz-14 sora-400 line-height-171 uk-margin-remove" style="color: #999;">Danh sách sản phẩm</h2>
+                <div style="padding: 13px 18px;" class="item-8px border-8 uk-background-muted uk-padding-small">
+                    <div class="uk-flex-middle uk-grid" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                <div>
+                                    <span class="cuahang__icon cuahang__icon--sachgiay"></span>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách giấy</div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #444;">(Tồn: 143)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
+                                <div>
+                                    <div class="uk-grid-12 uk-grid uk-flex-middle" uk-grid>
+                                        <div>
+                                            <div class="chi_tiet_sach__btn2">
+                                                <span class="icon16 icon16--minus"></span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="fz-12 be-vietnam-pro-medium uk-text-center" style="color: #000;width: 20px;">1</div>
+                                        </div>
+                                        <div>
+                                            <div class="chi_tiet_sach__btn2">
+                                                <span class="icon16 icon16--plus"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-grid uk-flex-middle" uk-grid>
+                                        <div>
+                                            <div class="fz-12 be-vietnam-pro-bold" style="color: #000;">379.000đ</div>
+                                        </div>
+                                        <div>
+                                            <label class="cuahang__fillter__labelCheck"><input class="uk-checkbox" type="checkbox" checked></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 13px 18px;" class="item-8px border-8 uk-background-muted uk-padding-small">
+                    <div class="uk-flex-middle uk-grid" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                <div>
+                                    <span class="cuahang__icon cuahang__icon--sachgiay"></span>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách giấy</div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #444;">(Tồn: 143)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="fz-12 be-vietnam-pro-medium uk-text-uppercase" style="color: #966412;">Đã mua</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 13px 18px;" class="uk-margin-small-top border-8 uk-background-muted uk-padding-small">
+                    <div class="uk-grid uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                <div>
+                                    <span class="cuahang__icon cuahang__icon--sachdientu"></span>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Điện tử</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
+                                <div>
+                                    
+                                </div>
+                                <div>
+                                    <div class="uk-grid uk-flex-middle" uk-grid>
+                                        <div>
+                                            <div class="fz-12 be-vietnam-pro-bold" style="color: #000;">379.000đ</div>
+                                            <div class="fz-12 be-vietnam-pro-regular" style="color: #777;"><del>279.000đ</del></div>
+                                        </div>
+                                        <div>
+                                            <label class="cuahang__fillter__labelCheck"><input class="uk-checkbox" type="checkbox" checked></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 13px 18px;" class="uk-margin-small-top border-8 uk-background-muted uk-padding-small">
+                    <div class="uk-grid uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                <div>
+                                    <span class="cuahang__icon cuahang__icon--sachdientu"></span>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Điện tử</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
+                                <div>
+                                    <div uk-form-custom="target: > * > span:first-child">
+                                        <select aria-label="Custom controls">
+                                            <option value="1">1 Tháng</option>
+                                            <option value="2">3 Tháng</option>
+                                            <option value="3">6 Tháng</option>
+                                            <option value="4">Vĩnh viễn</option>
+                                        </select>
+                                        <button class="chi_tiet_sach__btnSelect uk-button uk-button-default uk-border-pill" type="button" tabindex="-1">
+                                            <span></span>
+                                            <span uk-icon="icon: chevron-down"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-grid uk-flex-middle" uk-grid>
+                                        <div>
+                                            <div class="fz-12 be-vietnam-pro-bold" style="color: #000;">379.000đ</div>
+                                            <div class="fz-12 be-vietnam-pro-regular" style="color: #777;"><del>279.000đ</del></div>
+                                        </div>
+                                        <div>
+                                            <label class="cuahang__fillter__labelCheck"><input class="uk-checkbox" type="checkbox" checked></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 13px 18px;" class="uk-margin-small-top border-8 uk-background-muted uk-padding-small">
+                    <div class="uk-grid uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                <div>
+                                    <span class="cuahang__icon cuahang__icon--sachdientu"></span>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Điện tử</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
+                                <div>
+                                    <a href="" class="fz-12 be-vietnam-pro-bold line-height-158" style="color: #0CB0A7;text-decoration-line: underline;">Gia hạn</a>
+                                </div>
+                                <div>
+                                    <div class="fz-12 be-vietnam-pro-medium uk-text-uppercase" style="color: #966412;">Đã mua 1 tháng</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 13px 18px;" class="uk-margin-small-top border-8 uk-background-muted uk-padding-small">
+                    <div class="uk-grid uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                <div>
+                                    <span class="cuahang__icon cuahang__icon--sachnoi"></span>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Nói</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
+                                <div>
+                                    <div class="uk-grid uk-flex-middle uk-grid-32" uk-grid>
+                                        <div>
+                                            <div class="uk-grid-12 uk-grid uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <div class="chi_tiet_sach__btn2">
+                                                        <span class="icon16 icon16--minus"></span>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="fz-12 be-vietnam-pro-medium uk-text-center" style="color: #000;width: 20px;">1</div>
+                                                </div>
+                                                <div>
+                                                    <div class="chi_tiet_sach__btn2">
+                                                        <span class="icon16 icon16--plus"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div uk-form-custom="target: > * > span:first-child">
+                                                <select aria-label="Custom controls">
+                                                    <option value="1">1 Tháng</option>
+                                                    <option value="2">3 Tháng</option>
+                                                    <option value="3">6 Tháng</option>
+                                                    <option value="4">Vĩnh viễn</option>
+                                                </select>
+                                                <button class="chi_tiet_sach__btnSelect uk-button uk-button-default uk-border-pill" type="button" tabindex="-1">
+                                                    <span></span>
+                                                    <span uk-icon="icon: chevron-down"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-grid uk-flex-middle" uk-grid>
+                                        <div>
+                                            <div class="fz-12 be-vietnam-pro-bold" style="color: #000;">179.000đ</div>
+                                        </div>
+                                        <div>
+                                            <label class="cuahang__fillter__labelCheck"><input class="uk-checkbox" type="checkbox"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 13px 18px;" class="uk-margin-small-top border-8 uk-background-muted uk-padding-small">
+                    <div class="uk-grid uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                <div>
+                                    <span class="cuahang__icon cuahang__icon--sachnoi"></span>
+                                </div>
+                                <div>
+                                    <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Nói</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
+                                <div>
+                                    <a href="" class="fz-12 be-vietnam-pro-bold line-height-158" style="color: #0CB0A7;text-decoration-line: underline;">Gia hạn</a>
+                                </div>
+                                <div>
+                                    <div class="fz-12 be-vietnam-pro-medium uk-text-uppercase" style="color: #966412;">Đã mua 3 tháng</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-h-20"></div>
+                <div class="divider"></div>
+                <div class="space-h-20"></div>
+                <div class="fz-12 uk-flex uk-flex-middle uk-flex-right" style="gap: 8px">
+                    <span class="be-vietnam-pro-medium" style="color: #999;">Tạm tính</span>
+                    <span class="be-vietnam-pro-bold" style="color: #000;">354.000 đ</span>
+                </div>
+                <div class="space-h-20"></div>
+                <div class="uk-grid uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <div class="uk-flex-middle uk-flex" style="gap: 10px">
+                            <a href="" uk-tooltip="Facebook" style="--background: #3B5998;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="facebook"></a>
+                            <a href="" uk-tooltip="X" style="--background: #1DA1F2;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="x"></a>
+                            <a href="" uk-tooltip="Linkedin" style="--background: #0077B5;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="linkedin"></a>
+                            <a href="" uk-tooltip="Pinterest" style="--background: #E60023;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="pinterest"></a>
                         </div>
                     </div>
                     <div class="uk-width-auto">
-
-                    </div>
-                </div>
-            </div>
-            <div style="padding: 13px 18px;" class="uk-margin-small-top border-8 uk-background-muted uk-padding-small">
-                <div uk-grid>
-                    <div class="uk-width-expand">
-                        <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                        <div id="div1" class="uk-flex-middle uk-grid-20" uk-grid>
                             <div>
-                                <span class="cuahang__icon cuahang__icon--sachdientu"></span>
+                                <a href="" class="uk-link-toggle fz-16 be-vietnam-pro-semibold line-height-171 uk-flex-inline uk-flex-middle" style="gap: 9px; color: #000 !important;">
+                                    Cho vào giỏ
+                                    <span class="cuahang__icon cuahang__icon--cart"></span>
+                                </a>
                             </div>
                             <div>
-                                <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Điện tử</div>
+                                <a href="" style="color: #966412 !important;" class="width-283px button--1 uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
+                                    MUA HÀNG
+                                    <span class="cuahang__icon cuahang__icon--buy"></span>
+                                </a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="uk-width-auto">
-
-                    </div>
-                </div>
-            </div>
-            <div style="padding: 13px 18px;" class="uk-margin-small-top border-8 uk-background-muted uk-padding-small">
-                <div uk-grid>
-                    <div class="uk-width-expand">
-                        <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
-                            <div>
-                                <span class="cuahang__icon cuahang__icon--sachnoi"></span>
-                            </div>
-                            <div>
-                                <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Nói</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-width-auto">
-
-                    </div>
-                </div>
-            </div>
-            <div class="space-h-20"></div>
-            <div class="divider"></div>
-            <div class="space-h-20"></div>
-            <div class="fz-12 uk-flex uk-flex-middle uk-flex-right" style="gap: 8px">
-                <span class="be-vietnam-pro-medium" style="color: #999;">Tạm tính</span>
-                <span class="be-vietnam-pro-bold" style="color: #000;">354.000 đ</span>
-            </div>
-            <div class="space-h-20"></div>
-            <div class="uk-grid uk-flex-middle" uk-grid>
-                <div class="uk-width-expand">
-                    <div class="uk-flex-middle uk-flex" style="gap: 10px">
-                        <a href="" uk-tooltip="Facebook" style="--background: #3B5998;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="facebook"></a>
-                        <a href="" uk-tooltip="X" style="--background: #1DA1F2;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="x"></a>
-                        <a href="" uk-tooltip="Linkedin" style="--background: #0077B5;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="linkedin"></a>
-                        <a href="" uk-tooltip="Pinterest" style="--background: #E60023;" class="chi_tiet_sach__social__icon uk-icon-button" uk-icon="pinterest"></a>
-                    </div>
-                </div>
-                <div class="uk-width-auto">
-                    <div class="uk-flex-middle uk-grid-20" uk-grid>
-                        <div>
-                            <a href="" class="uk-link-toggle fz-16 be-vietnam-pro-semibold line-height-171 uk-flex-inline uk-flex-middle" style="gap: 9px; color: #000 !important;">
-                                Cho vào giỏ
-                                <span class="cuahang__icon cuahang__icon--cart"></span>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="" style="color: #966412 !important;" class="width-283px button--1 uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
-                                MUA HÀNG
-                                <span class="cuahang__icon cuahang__icon--buy"></span>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -400,4 +623,115 @@
 <div class="space-h-60"></div>
 <?php require "template-parts/layouts/slider-product-2.php"; ?>
 <div class="space-h-100"></div>
+    <nav id="chi_tiet_sach__navbar" class="chi_tiet_sach__navbar uk-navbar-container uk-position-fixed uk-position-bottom z-index-992">
+        <div class="uk-container">
+            <div uk-navbar>
+                <div class="uk-navbar-left">
+                    <div class="uk-navbar-item min-height-103">
+                        <div class="uk-grid uk-flex-middle uk-grid-16" uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="uk-cover-container uk-border-rounded">
+                                    <img src="https://picsum.photos/60/83/?random=" alt="" uk-cover="">
+                                    <canvas width="60" height="83"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="line-height-171 fz-16 sora-300" style="color: #444;">
+                                    Bạn đang chọn : <span class="sora-400" style="color: #000;">The Girl and the Last Sleepover</span>
+                                </div>
+                                <div class="uk-flex-middle uk-grid uk-grid-8" uk-grid>
+                                    <div>
+                                        <div class="fz-14 sora-700" style="color: #0CB0A7;">179.000đ-379.000đ</div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-position-relative uk-text-nowrap uk-display-inline-block">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
+                                            </svg>
+                                            <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: <?= rand(0,99) ?>%">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                    <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                    <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                    <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                    <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
+                                                </svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                                                    <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-navbar-right">
+                    <div class="uk-navbar-item min-height-103">
+                        <div class="uk-flex-middle uk-grid-20 uk-grid" uk-grid="">
+                            <div class="uk-first-column">
+                                <a href="" class="uk-link-toggle fz-16 be-vietnam-pro-semibold line-height-171 uk-flex-inline uk-flex-middle" style="gap: 9px; color: #000 !important;">
+                                    Cho vào giỏ
+                                    <span class="cuahang__icon cuahang__icon--cart"></span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" style="color: #966412 !important;" class="width-283px button--1 uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
+                                    MUA HÀNG
+                                    <span class="cuahang__icon cuahang__icon--buy"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        function myfunction(value) {
+            const item = value.getBoundingClientRect();
+            return (
+                item.top >= 0 &&
+                item.left >= 0 &&
+                item.bottom <= (
+                    window.innerHeight ||
+                    document.documentElement.clientHeight) &&
+                item.right <= (
+                    window.innerWidth ||
+                    document.documentElement.clientWidth)
+            );
+        }
+
+        const elementToCheck = document.getElementById('div1');
+        const elementToCheck2 = document.getElementById('chi_tiet_sach__navbar');
+
+        window.addEventListener('scroll', () => {
+            if (myfunction(elementToCheck)) {
+                console.log('Element is visible in viewport');
+                elementToCheck2.classList.remove('uk-open');
+            } else {
+                console.log('Element is not visible in viewport');
+                elementToCheck2.classList.add('uk-open');
+            }
+        });
+    </script>
 <?php require "template-parts/layouts/footer.php"; ?>

@@ -37,6 +37,7 @@
 @import 'components/row-gap';
 @import 'components/divider';
 @import 'components/icons';
+@import 'components/min-height';
 
 @import 'layout/navigation';
 @import 'layout/grid';
@@ -45,6 +46,7 @@
 @import 'layout/sidebar';
 @import 'layout/forms';
 @import 'layout/slideshow';
+@import 'layout/sidebar-left';
 
 @import 'pages/home';
 @import 'pages/about';
@@ -54,6 +56,7 @@
 @import 'pages/dangnhap';
 @import 'pages/dangky';
 @import 'pages/quenmatkhau';
+@import 'pages/sachdamua';
 
 @import 'themes/theme';
 @import 'themes/admin';

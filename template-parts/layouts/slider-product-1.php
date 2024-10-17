@@ -24,10 +24,10 @@
                         <div class="uk-cover-container border-16">
                             <img class="uk-transition-scale-up uk-transition-opaque" src="about:blank" uk-img data-src="https://picsum.photos/205/314/?random=<?= $i ?>" alt="" uk-cover>
                             <canvas width="205" height="314"></canvas>
-                            <a href="" class="uk-position-cover"></a>
+                            <a href="chi_tiet_sach.php" class="uk-position-cover"></a>
                         </div>
                         <div class="item-15px">
-                            <h6 class="fz-20 be-vietnam-pro-semibold uk-margin-remove"><a href="" class="uk-link-toggle be-vietnam-pro-semibold"><?= $name[$i]; ?></a></h6>
+                            <h6 class="fz-20 be-vietnam-pro-semibold uk-margin-remove"><a href="chi_tiet_sach.php" class="uk-link-toggle be-vietnam-pro-semibold"><?= $name[$i]; ?></a></h6>
                             <div class="item-8px">
                                 <div class="uk-position-relative uk-text-nowrap uk-display-inline-block">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">

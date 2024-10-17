@@ -1,6 +1,9 @@
 .space-h-100 {
   @include min-height(100px);
 }
+.space-h-63 {
+  @include min-height(63px);
+}
 .space-h-60 {
   @include min-height(60px);
 }
@@ -10,8 +13,14 @@
 .space-h-44 {
   @include min-height(44px);
 }
+.space-h-42 {
+  @include min-height(42px);
+}
 .space-h-40 {
   @include min-height(40px);
+}
+.space-h-32 {
+  @include min-height(32px);
 }
 .space-h-30 {
   @include min-height(30px);
