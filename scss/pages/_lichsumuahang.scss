@@ -1,0 +1,58 @@
+.lichsumuahang {
+  &__btn{
+    background: #F5F8FA;
+    text-transform: inherit;
+    padding: 0 8px;
+    @extend .text-A1A5B7;
+    @extend .fz-12;
+    @extend .be-vietnam-pro-semibold;
+  }
+  &__label{
+    padding: 0 11px;
+    display: inline-flex;
+    align-items: center;
+    @extend .min-height-26;
+    @extend .border-6;
+    @extend .fz-12;
+    @extend .be-vietnam-pro-semibold;
+    &--danggiao{
+      background: #F1FAFF;
+      @extend .text-00A3FF;
+    }
+    &--chogiao{
+      background: #FFF5F8;
+      @extend .text-F1416C;
+    }
+    &--choxuly{
+      background: #FFF8F5;
+      @extend .text-F19541;
+    }
+    &--hoanthanh{
+      background: #E8FFF3;
+      @extend .text-50CD89;
+    }
+  }
+  &__table{
+    tr{
+      td{
+        @extend .fz-16;
+        @extend .be-vietnam-pro-medium;
+        &:last-child{
+          padding-right: 0;
+        }
+      }
+      th{
+        text-transform: inherit;
+        @extend .text-3F4254;
+        @extend .fz-16;
+        @extend .be-vietnam-pro-medium;
+        &:first-child{
+          padding-left: 0;
+        }
+        &:last-child{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}

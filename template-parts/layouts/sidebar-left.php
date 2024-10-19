@@ -26,7 +26,7 @@
             </li>
             <div class="divider"></div>
             <li class="sidebar-left__nav__li">
-                <a class="sidebar-left__nav__a" href="">
+                <a class="sidebar-left__nav__a" href="lichsumuahang.php">
                     <span class="icon20 icon20--cart"></span>
                     Lịch sử mua hàng
                 </a>

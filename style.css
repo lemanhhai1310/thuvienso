@@ -26,13 +26,13 @@
   font-style: normal;
 }
 
-.be-vietnam-pro-medium, .dangky__label, .sidebar-left__nav__a {
+.be-vietnam-pro-medium, .lichsumuahang__table tr th, .lichsumuahang__table tr td, .dangky__label, .sidebar-left__nav__a {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
-.be-vietnam-pro-semibold, .thongtintaikhoan__title, .thongtintaikhoan__btnSave, .sachdamua__dropdown .uk-nav > li > a, .sachdamua__search__input, .dangnhap__form__input, .chi_tiet_sach__tab > * > a, .chi_tiet_sach__btnDropnav > *:first-child, .chi_tiet_sach__btnSelect > *:first-child, .cuahang__fillter__moreLink, .uk-active > .sidebar-left__nav__a, .footer__top__nav > li > a, .header__bottom__label, .header__bottom__boxCat__nav__a, .header__bottom__boxCat__nav1__a, .header__bottom__boxCat__nav2 > li > a {
+.be-vietnam-pro-semibold, .lichsumuahang__label, .lichsumuahang__btn, .thongtintaikhoan__title, .thongtintaikhoan__btnSave, .sachdamua__dropdown .uk-nav > li > a, .sachdamua__search__input, .dangnhap__form__input, .chi_tiet_sach__tab > * > a, .chi_tiet_sach__btnDropnav > *:first-child, .chi_tiet_sach__btnSelect > *:first-child, .cuahang__fillter__moreLink, .uk-active > .sidebar-left__nav__a, .footer__top__nav > li > a, .header__bottom__label, .header__bottom__boxCat__nav__a, .header__bottom__boxCat__nav1__a, .header__bottom__boxCat__nav2 > li > a {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -1554,7 +1554,7 @@
   font-size: 0.625rem;
 }
 
-.fz-12, .sachdamua__search__input, .pagination > * > * {
+.fz-12, .lichsumuahang__label, .lichsumuahang__btn, .sachdamua__search__input, .pagination > * > * {
   font-size: 0.75rem;
 }
 
@@ -1562,7 +1562,7 @@
   font-size: 0.875rem;
 }
 
-.fz-16, .thongtintaikhoan__btnSave, .chi_tiet_sach__tab > * > a, .chi_tiet_sach__btnDropnav > *:first-child, .chi_tiet_sach__btnSelect > *:first-child {
+.fz-16, .lichsumuahang__table tr th, .lichsumuahang__table tr td, .thongtintaikhoan__btnSave, .chi_tiet_sach__tab > * > a, .chi_tiet_sach__btnDropnav > *:first-child, .chi_tiet_sach__btnSelect > *:first-child {
   font-size: 1rem;
 }
 
@@ -1798,6 +1798,10 @@
 
 .border-8 {
   border-radius: 8px;
+}
+
+.border-6, .lichsumuahang__label {
+  border-radius: 6px;
 }
 
 .line-height-120 {
@@ -2082,6 +2086,10 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='none'%3E%3Cpath d='M15.5 14H9.5M21.5 10.1503V17.9668C21.5 20.1943 19.7091 22 17.5 22H7.5C5.29086 22 3.5 20.1943 3.5 17.9668V10.1503C3.5 8.93937 4.03964 7.7925 4.96986 7.02652L9.96986 2.90935C11.4423 1.69689 13.5577 1.69688 15.0301 2.90935L20.0301 7.02652C20.9604 7.7925 21.5 8.93937 21.5 10.1503Z' stroke='%2328303F' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
+.min-height-26, .lichsumuahang__label {
+  min-height: 26px;
+}
+
 .min-height-72, .sachdamua__navbar .uk-navbar-nav > li > a, .sachdamua__navbar .uk-navbar-item,
 .sachdamua__navbar .uk-navbar-toggle {
   min-height: 72px;
@@ -2095,20 +2103,48 @@
   color: black;
 }
 
+.text-0C121C, .thongtintaikhoan__title {
+  color: #0C121C;
+}
+
 .text-9A96AA, .sachdamua__search__input::placeholder {
   color: #9A96AA;
+}
+
+.text-7E8299 {
+  color: #7E8299;
+}
+
+.text-A1A5B7, .lichsumuahang__btn {
+  color: #A1A5B7;
+}
+
+.text-4B5563, .thongtintaikhoan__form__label {
+  color: #4B5563;
+}
+
+.text-3F4254, .lichsumuahang__table tr th {
+  color: #3F4254;
+}
+
+.text-00A3FF, .lichsumuahang__label--danggiao {
+  color: #00A3FF;
+}
+
+.text-F1416C, .lichsumuahang__label--chogiao {
+  color: #F1416C;
+}
+
+.text-F19541, .lichsumuahang__label--choxuly {
+  color: #F19541;
 }
 
 .text-966412, .thongtintaikhoan__btnSave {
   color: #966412;
 }
 
-.text-0C121C, .thongtintaikhoan__title {
-  color: #0C121C;
-}
-
-.text-4B5563, .thongtintaikhoan__form__label {
-  color: #4B5563;
+.text-50CD89, .lichsumuahang__label--hoanthanh {
+  color: #50CD89;
 }
 
 .gap-8 {
@@ -2787,6 +2823,40 @@
   line-height: 40px;
   padding: 0 24px;
   background: var(--brand-color);
+}
+.lichsumuahang__btn {
+  background: #F5F8FA;
+  text-transform: inherit;
+  padding: 0 8px;
+}
+.lichsumuahang__label {
+  padding: 0 11px;
+  display: inline-flex;
+  align-items: center;
+}
+.lichsumuahang__label--danggiao {
+  background: #F1FAFF;
+}
+.lichsumuahang__label--chogiao {
+  background: #FFF5F8;
+}
+.lichsumuahang__label--choxuly {
+  background: #FFF8F5;
+}
+.lichsumuahang__label--hoanthanh {
+  background: #E8FFF3;
+}
+.lichsumuahang__table tr td:last-child {
+  padding-right: 0;
+}
+.lichsumuahang__table tr th {
+  text-transform: inherit;
+}
+.lichsumuahang__table tr th:first-child {
+  padding-left: 0;
+}
+.lichsumuahang__table tr th:last-child {
+  padding-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
