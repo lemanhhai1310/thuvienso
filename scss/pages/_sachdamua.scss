@@ -26,4 +26,62 @@
     text-transform: inherit;
     background: var(--brand-color);
   }
+  &__search{
+    $x:40px;
+    &__input{
+      padding-left: 0 !important;
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+      color: #000;
+      @extend .fz-12;
+      @extend .be-vietnam-pro-semibold;
+      &::placeholder {
+        @extend .text-9A96AA;
+      }
+      &:not(:focus){
+        border-bottom: 1px solid transparent !important;
+      }
+      &:focus{
+
+      }
+      .sachdamua__search:has(.uk-search-icon-flip) &{
+        padding-right: #{$x};
+      }
+    }
+    &__icon{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='none'%3E%3Cpath d='M19 18.5L22.5 22M21.5 11.5C21.5 6.25329 17.2467 2 12 2C6.75329 2 2.5 6.25329 2.5 11.5C2.5 16.7467 6.75329 21 12 21C17.2467 21 21.5 16.7467 21.5 11.5Z' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      svg{
+        opacity: 0;
+      }
+      .sachdamua__search &{
+        width: #{$x};
+      }
+    }
+  }
+  &__dropdown{
+    min-width: 166px;
+    padding: 5px 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.05);
+    .uk-nav{
+      >li{
+        >a{
+          @extend .text-000;
+          padding: 12px 15px;
+          @extend .fz-14;
+          @extend .be-vietnam-pro-semibold;
+        }
+        &:hover,
+        &.uk-active{
+          >a{
+            background-color: #F6F6F6;
+          }
+        }
+      }
+    }
+  }
 }

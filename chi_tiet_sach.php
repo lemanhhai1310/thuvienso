@@ -269,7 +269,20 @@
                         <div class="uk-width-auto">
                             <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
                                 <div>
-                                    
+                                    <div class="uk-inline">
+                                        <button class="chi_tiet_sach__btnDropnav uk-button uk-button-default uk-border-pill" type="button">
+                                            <span>1 Tháng</span>
+                                            <span uk-drop-parent-icon></span>
+                                        </button>
+                                        <div class="uk-card uk-card-default" uk-drop="mode: click">
+                                            <ul class="uk-nav uk-dropdown-nav">
+                                                <li><label><input class="uk-radio" type="radio" name="radio2"> 1 Tháng</label></li>
+                                                <li><label><input class="uk-radio" type="radio" name="radio2"> 3 Tháng</label></li>
+                                                <li><label><input class="uk-radio" type="radio" name="radio2"> 6 Tháng</label></li>
+                                                <li><label><input class="uk-radio" type="radio" name="radio2"> Vĩnh viễn</label></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div>
                                     <div class="uk-grid uk-flex-middle" uk-grid>

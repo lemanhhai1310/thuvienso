@@ -44,6 +44,29 @@
       }
     }
   }
+  &__btnDropnav{
+    text-transform: inherit;
+    padding-left: 14px;
+    padding-right: 6px;
+    background: #F6F6F6;
+    >*{
+      &:first-child{
+        @extend .fz-16;
+        @extend .be-vietnam-pro-semibold;
+        color: #000;
+        @extend .line-height-171;
+      }
+    }
+    & ~ *{
+      .uk-nav{
+        >*{
+          >*{
+
+          }
+        }
+      }
+    }
+  }
   &__tab{
     >*{
       >a{

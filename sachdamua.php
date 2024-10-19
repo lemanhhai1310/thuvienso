@@ -65,11 +65,44 @@
                             <div class="uk-navbar-left">
                                 <div class="uk-navbar-item" style="gap: 12px">
                                     <div class="icon24 icon24--thongtintaikhoain"></div>
-                                    <div class="fz-14 be-vietnam-pro-semibold" style="color: #000;">Thông tin tài khoản</div>
+                                    <div class="fz-14 be-vietnam-pro-semibold" style="color: #000;">Sách đã mua</div>
                                 </div>
                             </div>
                             <div class="uk-navbar-right">
-
+                                <div class="uk-navbar-item gap-24">
+                                    <form class="sachdamua__search uk-search uk-search-default">
+                                        <input class="sachdamua__search__input uk-search-input" type="search" placeholder="Tìm theo tên sách" aria-label="Tìm theo tên sách">
+                                        <span class="sachdamua__search__icon uk-search-icon-flip" uk-search-icon></span>
+                                    </form>
+                                    <div class="divider-vertical-20"></div>
+                                    <div>
+                                        <div class="uk-flex uk-flex-middle uk-link-text gap-8 cursor-pointer">
+                                            <div class="icon24 icon24--filter"></div>
+                                            <div class="fz-12 be-vietnam-pro-semibold line-height-200 text-000">Phân loại sách</div>
+                                        </div>
+                                        <div class="sachdamua__dropdown" uk-dropdown="mode: click; pos: bottom-right">
+                                            <ul class="uk-nav uk-dropdown-nav">
+                                                <li class="uk-active"><a href="#">Active</a></li>
+                                                <li><a href="#">Item</a></li>
+                                                <li><a href="#">Item</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider-vertical-20"></div>
+                                    <div>
+                                        <div class="uk-flex uk-flex-middle uk-link-text gap-8 cursor-pointer">
+                                            <div class="icon24 icon24--sort-arrow-down"></div>
+                                            <div class="fz-12 be-vietnam-pro-semibold line-height-200 text-000">Tình trạng đọc</div>
+                                        </div>
+                                        <div class="sachdamua__dropdown" uk-dropdown="mode: click; pos: bottom-right">
+                                            <ul class="uk-nav uk-dropdown-nav">
+                                                <li class="uk-active"><a href="#">Mới nhất</a></li>
+                                                <li><a href="#">Cũ nhất</a></li>
+                                                <li><a href="#">Item</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </nav>
                         <div class="divider"></div>
