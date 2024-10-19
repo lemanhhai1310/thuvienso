@@ -19,6 +19,7 @@
       $x:50px;
       width: #{$x};
       &:not(.uk-form-icon-flip){
+        ~ *>.uk-button,
         ~ .uk-input{
           padding-left: #{$x} !important;
         }

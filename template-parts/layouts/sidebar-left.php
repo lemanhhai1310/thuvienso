@@ -12,14 +12,14 @@
         <div class="space-h-42"></div>
         <ul class="sidebar-left__nav uk-nav uk-nav-default">
             <li class="sidebar-left__nav__li uk-active">
-                <a class="sidebar-left__nav__a" href="#">
+                <a class="sidebar-left__nav__a" href="sachdamua.php">
                     <span class="icon20 icon20--sachdamua"></span>
                     Sách đã mua
                 </a>
             </li>
             <div class="divider"></div>
             <li class="sidebar-left__nav__li">
-                <a class="sidebar-left__nav__a" href="#">
+                <a class="sidebar-left__nav__a" href="thongtintaikhoan.php">
                     <span class="icon20 icon20--user"></span>
                     Thông tin tài khoản
                 </a>

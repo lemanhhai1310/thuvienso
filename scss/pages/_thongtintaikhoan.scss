@@ -1,0 +1,21 @@
+.thongtintaikhoan {
+  &__btnSave{
+    text-transform: inherit;
+    @extend .text-966412;
+    @extend .fz-16;
+    @extend .be-vietnam-pro-semibold;
+    line-height: 40px;
+    padding: 0 24px;
+    background: var(--brand-color);
+  }
+  &__title{
+    @extend .text-0C121C;
+    @extend .fz-18;
+    @extend .be-vietnam-pro-semibold;
+  }
+  &__form{
+    &__label{
+      @extend .text-4B5563;
+    }
+  }
+}
