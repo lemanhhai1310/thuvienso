@@ -225,7 +225,7 @@
                         <div class="uk-navbar-item">
                             <div class="uk-grid-12" uk-grid>
                                 <div>
-                                    <a href="" class="header__center__btn header__center__btn--cart uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
+                                    <a href="giohang.php" class="header__center__btn header__center__btn--cart uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
                                         <div class="uk-position-relative uk-light">
                                             <span class="fz-10">23</span>
                                         </div>

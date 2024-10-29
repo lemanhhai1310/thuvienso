@@ -1,0 +1,21 @@
+.giohang {
+  &__list{
+
+  }
+  &__label{
+    @extend .home__sachmoi__label;
+    $x:10px;
+    width: 41.836px;
+    height: 32.962px;
+    padding: 8.875px 5.409px 10.055px 5.07px;
+    border-radius: 0px 0px #{$x} #{$x};
+  }
+  &__item{
+    $x:16px;
+    &:nth-child(n+2){
+      border-top: 1px solid #DDE5EF;
+      padding-top: #{$x};
+      margin-top: #{$x};
+    }
+  }
+}

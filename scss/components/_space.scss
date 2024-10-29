@@ -31,6 +31,9 @@
 .space-h-20 {
   @include min-height(20px);
 }
+.space-h-16 {
+  @include min-height(16px);
+}
 .space-h-12 {
   @include min-height(12px);
 }

@@ -1258,6 +1258,14 @@
   overflow: hidden;
 }
 
+.text-999 {
+  color: #999;
+}
+
+.text-0CB0A7 {
+  color: #0CB0A7;
+}
+
 .item-6px:nth-child(n+2) {
   margin-top: 0.375rem;
 }
@@ -1536,6 +1544,10 @@
 
 .space-h-20 {
   min-height: 1.25rem;
+}
+
+.space-h-16 {
+  min-height: 1rem;
 }
 
 .space-h-12 {
@@ -2504,7 +2516,7 @@
 .home__chude__item:hover .home__chude__img {
   right: -10px;
 }
-.home__sachmoi__label {
+.home__sachmoi__label, .giohang__label {
   right: 22px;
   display: flex;
   width: 66px;
@@ -2846,17 +2858,19 @@
 .lichsumuahang__label--hoanthanh {
   background: #E8FFF3;
 }
-.lichsumuahang__table tr td:last-child {
-  padding-right: 0;
-}
 .lichsumuahang__table tr th {
   text-transform: inherit;
 }
-.lichsumuahang__table tr th:first-child {
-  padding-left: 0;
+.giohang__label {
+  width: 41.836px;
+  height: 32.962px;
+  padding: 8.875px 5.409px 10.055px 5.07px;
+  border-radius: 0px 0px 10px 10px;
 }
-.lichsumuahang__table tr th:last-child {
-  padding-right: 0;
+.giohang__item:nth-child(n+2) {
+  border-top: 1px solid #DDE5EF;
+  padding-top: 16px;
+  margin-top: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

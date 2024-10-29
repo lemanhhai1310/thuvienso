@@ -33,7 +33,7 @@
             </li>
             <div class="divider"></div>
             <li class="sidebar-left__nav__li">
-                <a class="sidebar-left__nav__a" href="">
+                <a class="sidebar-left__nav__a" href="lichsunaptien.php">
                     <span class="icon20 icon20--pay"></span>
                     Lịch sử nạp tiền
                 </a>
@@ -47,7 +47,7 @@
             </li>
             <div class="space-h-63"></div>
             <li class="sidebar-left__nav__li">
-                <a class="sidebar-left__nav__a" href="#">
+                <a class="sidebar-left__nav__a" href="dangnhap.php">
                     <span class="icon20 icon20--logout"></span>
                     Đăng xuất
                 </a>

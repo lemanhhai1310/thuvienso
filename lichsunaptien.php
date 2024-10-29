@@ -1,4 +1,4 @@
-<?php $data["title"] = "Lịch sử mua hàng"; ?>
+<?php $data["title"] = "Lịch sử nạp tiền"; ?>
 <?php $isHome = false; ?>
 <?php $isLogin = true; ?>
 <?php $bodyClass = '' ?>
@@ -65,7 +65,7 @@
                             <div class="uk-navbar-left">
                                 <div class="uk-navbar-item" style="gap: 12px">
                                     <div class="icon24 icon24--thongtintaikhoain"></div>
-                                    <div class="fz-14 be-vietnam-pro-semibold" style="color: #000;">Lịch sử mua hàng</div>
+                                    <div class="fz-14 be-vietnam-pro-semibold" style="color: #000;">Lịch sử nạp tiền</div>
                                 </div>
                             </div>
                             <div class="uk-navbar-right">
@@ -111,12 +111,11 @@
                                 <thead>
                                 <tr>
                                     <th class="uk-padding-remove-left">STT</th>
-                                    <th>Mã đơn</th>
-                                    <th>Ngày đặt hàng</th>
-                                    <th>Số lượng mặt hàng</th>
-                                    <th>Số tiền</th>
+                                    <th>Mã giao dịch</th>
+                                    <th>Thông tin giao dịch</th>
                                     <th class="uk-text-center">Trạng thái</th>
-                                    <th class="uk-text-right uk-padding-remove-right">Xử lý</th>
+                                    <th>Ví chính</th>
+                                    <th>Ví khuyến mãi</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -124,9 +123,7 @@
                                     <tr>
                                         <td class="text-7E8299"><?= $i+1; ?></td>
                                         <td class="text-7E8299">423344</td>
-                                        <td class="text-3F4254">08/14/2019</td>
-                                        <td class="text-3F4254">1</td>
-                                        <td class="text-3F4254">2.590.000 VND</td>
+                                        <td class="text-3F4254">Nạp tiền </td>
                                         <td class="uk-text-center">
                                             <?php if ($i==0): ?>
                                                 <div class="lichsumuahang__label lichsumuahang__label--danggiao">Đang giao</div>
@@ -138,15 +135,8 @@
                                                 <div class="lichsumuahang__label lichsumuahang__label--hoanthanh">Hoàn thành</div>
                                             <?php endif; ?>
                                         </td>
-                                        <td class="uk-text-right uk-padding-remove-right">
-                                            <a href class="lichsumuahang__btn uk-button uk-button-small uk-border-rounded">Thao tác <span uk-drop-parent-icon></span></a>
-                                            <div class="sachdamua__dropdown" uk-dropdown="mode: click; pos: bottom-right">
-                                                <ul class="uk-nav uk-dropdown-nav">
-                                                    <li><a href="#">Xem chi tiết</a></li>
-                                                    <li><a href="#">Huỷ đơn hàng</a></li>
-                                                </ul>
-                                            </div>
-                                        </td>
+                                        <td class="text-3F4254">400.000đ</td>
+                                        <td class="text-3F4254">400.000đ</td>
                                     </tr>
                                 <?php } ?>
                                 </tbody>
