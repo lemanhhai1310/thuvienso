@@ -1,0 +1,12 @@
+.khongdusodu-vi {
+  &__link{
+    &:hover{
+      @extend .text-BB252B;
+    }
+  }
+  &__link1{
+    &:hover{
+      @extend .text-166534;
+    }
+  }
+}

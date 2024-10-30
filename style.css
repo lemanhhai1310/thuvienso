@@ -1270,6 +1270,78 @@
   color: #111827;
 }
 
+.text-911D21 {
+  color: #911D21;
+}
+
+.text-D83A40 {
+  color: #D83A40;
+}
+
+.text-BB252B, .khongdusodu-vi__link:hover {
+  color: #BB252B;
+}
+
+.text-000, .thongtinchuyenkhoan__randomText > *, .sachdamua__dropdown .uk-nav > li > a {
+  color: black;
+}
+
+.text-0C121C, .thongtintaikhoan__title {
+  color: #0C121C;
+}
+
+.text-9A96AA, .sachdamua__search__input::placeholder {
+  color: #9A96AA;
+}
+
+.text-7E8299 {
+  color: #7E8299;
+}
+
+.text-A1A5B7, .lichsumuahang__btn {
+  color: #A1A5B7;
+}
+
+.text-4B5563, .thongtintaikhoan__form__label {
+  color: #4B5563;
+}
+
+.text-3F4254, .lichsumuahang__table tr th {
+  color: #3F4254;
+}
+
+.text-00A3FF, .lichsumuahang__label--danggiao {
+  color: #00A3FF;
+}
+
+.text-F1416C, .lichsumuahang__label--chogiao {
+  color: #F1416C;
+}
+
+.text-F19541, .lichsumuahang__label--choxuly {
+  color: #F19541;
+}
+
+.text-966412, .thongtinchuyenkhoan__btnHome:hover, .thongtintaikhoan__btnSave {
+  color: #966412;
+}
+
+.text-50CD89, .lichsumuahang__label--hoanthanh {
+  color: #50CD89;
+}
+
+.text-1F7411 {
+  color: #1F7411;
+}
+
+.text-2BA117 {
+  color: #2BA117;
+}
+
+.text-166534, .khongdusodu-vi__link1:hover {
+  color: #166534;
+}
+
 .item-4px:nth-child(n+2) {
   margin-top: 0.25rem;
 }
@@ -1383,6 +1455,11 @@
 .width-145px {
   max-width: 100%;
   width: 145px;
+}
+
+.width-163px {
+  max-width: 100%;
+  width: 163px;
 }
 
 .width-178px {
@@ -1964,6 +2041,12 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.icon20--warning {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='16' viewBox='0 0 17 16' fill='none'%3E%3Cpath opacity='0.4' d='M6.806 1.4716C7.54406 0.176134 9.45464 0.176132 10.1927 1.4716L16.5861 12.6937C17.3034 13.9527 16.3698 15.5 14.8928 15.5H2.10592C0.628898 15.5 -0.304731 13.9527 0.412574 12.6937L6.806 1.4716Z' fill='%23D83A40'/%3E%3Cpath d='M9.33268 12.1654C9.33268 12.6256 8.95959 12.9987 8.49935 12.9987C8.03911 12.9987 7.66602 12.6256 7.66602 12.1654C7.66602 11.7051 8.03911 11.332 8.49935 11.332C8.95959 11.332 9.33268 11.7051 9.33268 12.1654Z' fill='%23D83A40'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.5 4.875C8.84518 4.875 9.125 5.15482 9.125 5.5V9.66667C9.125 10.0118 8.84518 10.2917 8.5 10.2917C8.15482 10.2917 7.875 10.0118 7.875 9.66667V5.5C7.875 5.15482 8.15482 4.875 8.5 4.875Z' fill='%23D83A40'/%3E%3C/svg%3E");
+}
+.icon20--success {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' fill='none'%3E%3Ccircle opacity='0.4' cx='8.4987' cy='9.0026' r='8.33333' transform='rotate(180 8.4987 9.0026)' fill='%232BA117'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17.2502 1.03545C17.5067 1.26636 17.5275 1.66154 17.2966 1.91811L10.0153 9.91588C9.20317 10.8182 7.82827 10.9307 6.88031 10.1723L3.94162 7.82138C3.67208 7.60575 3.62838 7.21244 3.84401 6.9429C4.05964 6.67337 4.45295 6.62966 4.72249 6.8453L7.66117 9.19624C8.09207 9.54096 8.71702 9.48984 9.08616 9.07968L16.3675 1.0819C16.5984 0.825334 16.9936 0.804535 17.2502 1.03545Z' fill='%232BA117'/%3E%3C/svg%3E");
+}
 .icon20--home {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M17.5 14.9727V8.45894C17.5 7.4498 17.0503 6.49407 16.2751 5.85576L12.1084 2.42478C10.8814 1.41439 9.11859 1.4144 7.89155 2.42478L3.72488 5.85576C2.9497 6.49407 2.5 7.4498 2.5 8.45894V14.9727C2.5 16.8289 3.99238 18.3337 5.83333 18.3337H14.1667C16.0076 18.3337 17.5 16.8289 17.5 14.9727Z' stroke='%236B6B6B' stroke-width='1.5' stroke-linejoin='round'/%3E%3Cpath d='M8.33301 15H11.6663' stroke='%236B6B6B' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
 }
@@ -2140,54 +2223,6 @@
 
 .min-height-103 {
   min-height: 103px;
-}
-
-.text-000, .thongtinchuyenkhoan__randomText > *, .sachdamua__dropdown .uk-nav > li > a {
-  color: black;
-}
-
-.text-0C121C, .thongtintaikhoan__title {
-  color: #0C121C;
-}
-
-.text-9A96AA, .sachdamua__search__input::placeholder {
-  color: #9A96AA;
-}
-
-.text-7E8299 {
-  color: #7E8299;
-}
-
-.text-A1A5B7, .lichsumuahang__btn {
-  color: #A1A5B7;
-}
-
-.text-4B5563, .thongtintaikhoan__form__label {
-  color: #4B5563;
-}
-
-.text-3F4254, .lichsumuahang__table tr th {
-  color: #3F4254;
-}
-
-.text-00A3FF, .lichsumuahang__label--danggiao {
-  color: #00A3FF;
-}
-
-.text-F1416C, .lichsumuahang__label--chogiao {
-  color: #F1416C;
-}
-
-.text-F19541, .lichsumuahang__label--choxuly {
-  color: #F19541;
-}
-
-.text-966412, .thongtinchuyenkhoan__btnHome:hover, .thongtintaikhoan__btnSave {
-  color: #966412;
-}
-
-.text-50CD89, .lichsumuahang__label--hoanthanh {
-  color: #50CD89;
 }
 
 .gap-8 {
