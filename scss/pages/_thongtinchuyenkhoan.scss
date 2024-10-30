@@ -1,4 +1,11 @@
 .thongtinchuyenkhoan{
+  &__btnHome{
+    line-height: 44px;
+    text-transform: inherit;
+    &:hover{
+      @extend .text-966412;
+    }
+  }
   &__box{
     padding: 32px 20px;
   }

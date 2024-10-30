@@ -193,6 +193,9 @@
                 <div class="space-h-16"></div>
                 <div class="uk-text-center">
                     <button class="thongtintaikhoan__btnSave uk-button uk-border-pill uk-width">Xác nhận đã chuyển khoản</button>
+                    <a href="." class="thongtinchuyenkhoan__btnHome uk-button uk-width item-16px uk-border-pill background-F6F6F6 text-000 be-vietnam-pro-semibold fz-16">
+                        Quay về trang chủ
+                    </a>
                 </div>
             </div>
         </div>
