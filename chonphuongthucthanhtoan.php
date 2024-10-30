@@ -311,7 +311,7 @@
                 </div>
                 <div class="space-h-16"></div>
                 <div class="uk-text-center">
-                    <button class="thongtintaikhoan__btnSave uk-button uk-border-pill">Tiếp tục thanh toán</button>
+                    <a href="thongtinchuyenkhoan.php" class="thongtintaikhoan__btnSave uk-button uk-border-pill">Tiếp tục thanh toán</a>
                 </div>
             </div>
         </div>
