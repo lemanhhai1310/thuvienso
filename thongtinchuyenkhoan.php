@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="space-h-40"></div>
-                <table class="chi_tiet_sach__table uk-table uk-table-striped uk-table-hover">
+                <table class="chi_tiet_sach__table uk-table uk-table-striped uk-table-hover uk-margin-remove">
                     <tbody>
                     <?php
                     $data = [
