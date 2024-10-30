@@ -80,7 +80,48 @@
                                     </div>
                                     <div class="item-8px fz-12 be-vietnam-pro-semibold" style="color: #999;">NXB Nhã Nam</div>
                                     <div class="space-h-16"></div>
-                                    
+                                    <div style="padding: 13px 18px;" class="border-8 uk-background-muted uk-padding-small">
+                                        <div class="uk-grid uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <div class="uk-grid uk-grid-10 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <span class="cuahang__icon cuahang__icon--sachdientu"></span>
+                                                    </div>
+                                                    <div>
+                                                        <div class="uk-text-uppercase fz-12 be-vietnam-pro-medium" style="color: #000;">Sách Điện tử</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <div class="uk-inline">
+                                                            <button class="chi_tiet_sach__btnDropnav uk-button uk-button-small uk-button-default uk-border-pill" type="button">
+                                                                <span>1 Tháng</span>
+                                                                <span uk-drop-parent-icon></span>
+                                                            </button>
+                                                            <div class="uk-card uk-card-default" uk-drop="mode: click">
+                                                                <ul class="uk-nav uk-dropdown-nav">
+                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> 1 Tháng</label></li>
+                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> 3 Tháng</label></li>
+                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> 6 Tháng</label></li>
+                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> Vĩnh viễn</label></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="uk-grid uk-flex-middle" uk-grid>
+                                                            <div>
+                                                                <div class="fz-12 be-vietnam-pro-bold" style="color: #000;">379.000đ</div>
+                                                                <div class="fz-12 be-vietnam-pro-regular" style="color: #777;"><del>279.000đ</del></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="uk-width-auto">
                                     <ul class="uk-iconnav">
