@@ -1282,6 +1282,10 @@
   color: #BB252B;
 }
 
+.text-FF0000 {
+  color: #FF0000;
+}
+
 .text-000, .thongtinchuyenkhoan__randomText > *, .sachdamua__dropdown .uk-nav > li > a {
   color: black;
 }
@@ -1899,6 +1903,10 @@
   border-radius: 14px;
 }
 
+.border-12 {
+  border-radius: 12px;
+}
+
 .border-10, .uk-notification-message {
   border-radius: 10px;
 }
@@ -2253,6 +2261,10 @@
 
 .background-F6F6F6 {
   background: #F6F6F6;
+}
+
+.background-F0F0F0 {
+  background: #F0F0F0;
 }
 
 .header__top:not(.uk-navbar-transparent) {
@@ -2995,6 +3007,14 @@
   justify-content: center;
   width: 24px;
   height: 18px;
+}
+
+.chitietdonhang__txt {
+  padding: 0 14px;
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
