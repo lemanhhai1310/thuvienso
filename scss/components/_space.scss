@@ -1,3 +1,6 @@
+.space-h-160 {
+  @include min-height(160px);
+}
 .space-h-107 {
   @include min-height(107px);
 }

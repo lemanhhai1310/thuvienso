@@ -1,0 +1,25 @@
+.search {
+  &__dropdown{
+    padding: 20px 16px;
+  }
+  &__label{
+    padding: 0 22px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    @extend .text-9F9595;
+    @extend .fz-14;
+    @extend .be-vietnam-pro-semibold;
+  }
+  &__item{
+    cursor: pointer;
+    &:nth-child(n+2){
+      margin-top: 4px;
+    }
+    &:hover{
+      @extend .background-F0F0F0;
+    }
+  }
+}
