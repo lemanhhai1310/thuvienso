@@ -1,0 +1,28 @@
+.chonphuongthucthanhtoan {
+  &__radioPay{
+
+  }
+  &__napthem{
+    &:hover{
+      color: #000;
+    }
+  }
+  &__checkbox{
+
+  }
+  &__boxGrid{
+    display: none;
+    .chonphuongthucthanhtoan__checkbox:checked ~ &{
+      display: flex;
+    }
+  }
+  &__card{
+    box-shadow: none;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid #F6F6F6;
+    .chonphuongthucthanhtoan__radioPay:checked ~ &{
+      border-color: #FFC01F;
+    }
+  }
+}

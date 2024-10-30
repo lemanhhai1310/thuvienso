@@ -184,7 +184,7 @@
                 </div>
                 <div class="space-h-16"></div>
                 <div class="uk-text-center">
-                    <button class="thongtintaikhoan__btnSave uk-button uk-border-pill">Thanh toán</button>
+                    <a href="chonphuongthucthanhtoan.php" class="thongtintaikhoan__btnSave uk-button uk-border-pill">Thanh toán</a>
                 </div>
             </div>
         </div>

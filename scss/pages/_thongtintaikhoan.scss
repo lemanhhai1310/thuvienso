@@ -7,6 +7,9 @@
     line-height: 40px;
     padding: 0 24px;
     background: var(--brand-color);
+    &:hover{
+      color: #000;
+    }
   }
   &__title{
     @extend .text-0C121C;
