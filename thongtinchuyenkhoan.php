@@ -202,4 +202,20 @@
     </div>
 </div>
 <div class="space-h-100"></div>
+<div class="uk-container">
+    <div class="uk-flex-middle uk-grid" uk-grid>
+        <div class="uk-width-auto">
+            <h2 class="common__title fz-36 be-vietnam-pro-semibold">Sách nổi bật</h2>
+        </div>
+        <div class="uk-width-expand">
+            <div class="common__line"></div>
+        </div>
+        <div class="uk-width-auto">
+            <a href="" class="common__btnAll be-vietnam-pro-semibold fz-16 uk-button uk-button-default uk-border-pill">Xem tất cả</a>
+        </div>
+    </div>
+</div>
+<div class="space-h-60"></div>
+<?php require "template-parts/layouts/slider-product-2.php"; ?>
+<div class="space-h-100"></div>
 <?php require "template-parts/layouts/footer.php"; ?>
