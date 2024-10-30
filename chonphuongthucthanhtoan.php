@@ -136,6 +136,7 @@
                             </span>
                             <input style="height: 48px;" id="form-stacked-name" class="dangnhap__form__input uk-input border-16" type="text" value="Nguyễn Trung Kiên" placeholder="" aria-label="">
                         </div>
+                        <div class="item-6px fz-14 be-vietnam-pro-regular" style="color: #D83A40;">Vui lòng nhập họ & tên</div>
                     </div>
                     <div>
                         <label class="thongtintaikhoan__form__label uk-form-label fz-14 be-vietnam-pro-medium" for="form-stacked-phone">Số điện thoại của bạn <sup class="uk-text-danger">*</sup></label>
