@@ -40,7 +40,7 @@
             </li>
             <div class="divider"></div>
             <li class="sidebar-left__nav__li">
-                <a class="sidebar-left__nav__a" href="">
+                <a class="sidebar-left__nav__a" href="doimatkhau.php">
                     <span class="icon20 icon20--lock"></span>
                     Đổi mật khẩu
                 </a>
