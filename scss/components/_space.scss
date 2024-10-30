@@ -1,5 +1,11 @@
+.space-h-107 {
+  @include min-height(107px);
+}
 .space-h-100 {
   @include min-height(100px);
+}
+.space-h-78 {
+  @include min-height(78px);
 }
 .space-h-63 {
   @include min-height(63px);
