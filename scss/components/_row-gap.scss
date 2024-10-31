@@ -18,6 +18,16 @@
     }
   }
 }
+.row-gap-24 {
+  &.uk-grid-margin{
+    margin-top: 24px;
+  }
+  >*{
+    &.uk-grid-margin{
+      margin-top: 24px;
+    }
+  }
+}
 .row-gap-30 {
   &.uk-grid-margin{
     margin-top: 30px;

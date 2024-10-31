@@ -1,0 +1,19 @@
+.danhmucsach {
+  &__card{
+    padding: 24px 16px;
+    border: var(----f1-number-1, 1px) solid #E6E6E6;
+  }
+  &__search{
+    
+    &__icon{
+
+    }
+    &__input{
+      height: 48px !important;
+      background: #f6f6f6 !important;
+      &:not(:focus){
+        border-color: #f6f6f6;
+      }
+    }
+  }
+}

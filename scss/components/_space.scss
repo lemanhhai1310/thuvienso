@@ -19,6 +19,9 @@
 .space-h-50 {
   @include min-height(50px);
 }
+.space-h-48 {
+  @include min-height(48px);
+}
 .space-h-44 {
   @include min-height(44px);
 }
