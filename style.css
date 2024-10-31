@@ -1412,6 +1412,10 @@
   color: #9F9595;
 }
 
+.text-444 {
+  color: #444;
+}
+
 .item-2px:nth-child(n+2) {
   margin-top: 0.125rem;
 }
@@ -1604,6 +1608,11 @@
 .width-518px {
   max-width: 100%;
   width: 518px;
+}
+
+.width-597px {
+  max-width: 100%;
+  width: 597px;
 }
 
 .width-810px {
