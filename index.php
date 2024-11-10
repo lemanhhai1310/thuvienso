@@ -16,13 +16,8 @@
             </div>
             <div class="uk-width-auto">
                 <div class="width-260px uk-light uk-cover-container border-20" style="width: 260px;">
-                    <img src="about:blank" uk-img data-src="images/banner/bg2.png" alt="" uk-cover="">
+                    <img src="about:blank" uk-img data-src="images/slider1.jpeg" alt="" uk-cover="">
                     <canvas width="260" height="548"></canvas>
-                    <div class="uk-position-cover home__banner2__overlay"></div>
-                    <div class="width-178px fz-14 be-vietnam-pro-semibold uk-position-bottom-center uk-position-medium uk-text-center">
-                        “Sách viễn tưởng hay nhất mọi thời đại...”
-                        <span class="fz-12">-Mr. Anonymous</span>
-                    </div>
                     <a href="" class="uk-position-cover"></a>
                 </div>
             </div>

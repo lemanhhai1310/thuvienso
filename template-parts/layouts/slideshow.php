@@ -2,30 +2,10 @@
 
     <div class="uk-slideshow-items uk-height-1-1 border-20">
         <?php for ($i = 0; $i < 3; $i++) { ?>
-            <div class="slideshow__item uk-flex uk-flex-middle border-20 uk-background-norepeat uk-background-bottom-right" data-src="images/banner/Vector1459.png" uk-img>
-                <div class="uk-section-xsmall uk-width">
-                    <div class="uk-grid-collapse uk-flex-middle" uk-grid>
-                        <div class="uk-width-expand">
-                            <div class="uk-card uk-card-body uk-text-center" uk-slideshow-parallax="scale: 1,1,0.8">
-                                <div class="uk-light">
-                                    <div uk-slideshow-parallax="x: 100,-100" class="fz-16 uk-text-uppercase line-height-125 be-vietnam-pro-semibold">DEAL HOT CỦA THÁNG</div>
-                                    <h2 uk-slideshow-parallax="x: 200,0,0" class="fz-44 item-22px uk-margin-remove-bottom be-vietnam-pro-semibold line-height-141 uk-text-capitalize" style="letter-spacing: -2px">
-                                        <span style="color: #F65D4E;">Giảm tới 50%</span>
-                                        trên hàng trăm
-                                        đầu sách
-                                    </h2>
-                                    <div uk-slideshow-parallax="x: 400,0,0;" class="item-22px">Đọc quyền qua mua hàng online</div>
-                                </div>
-                                <div class="item-22px" uk-slideshow-parallax="x: 100,-100">
-                                    <a href="" class="common__btnAll be-vietnam-pro-semibold fz-16 uk-button uk-button-default uk-border-pill">Vào cửa hàng</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-width-auto">
-                            <img class="uk-transition-slide-right-small" src="images/banner/image1.png" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <a href="">
+                    <img src="images/photo.jpg" alt="" uk-cover>
+                </a>
             </div>
         <?php } ?>
     </div>
