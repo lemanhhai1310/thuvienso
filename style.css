@@ -1565,6 +1565,11 @@
   width: 260px;
 }
 
+.width-280px {
+  max-width: 100%;
+  width: 280px;
+}
+
 .width-281px {
   max-width: 100%;
   width: 281px;
