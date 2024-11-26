@@ -222,7 +222,7 @@
                                     <input class="header__center__search__input fz-14 be-vietnam-pro-semibold uk-search-input uk-border-pill" type="search" placeholder="Tìm kiếm sách theo tên" aria-label="Tìm kiếm sách theo tên">
                                     <span class="header__center__search__icon uk-search-icon-flip" uk-search-icon></span>
                                 </form>
-                                <div class="border-10 search__dropdown uk-width" uk-dropdown="mode: click">
+                                <div class="border-10 search__dropdown uk-width" uk-dropdown="toggle: .header__center__search__input; mode: click">
                                     <div class="sora-600 text-9F9595 fz-16">Xu hướng</div>
                                     <div class="space-h-16"></div>
                                     <div class="divider"></div>

@@ -96,46 +96,50 @@
         <div class="space-h-60"></div>
         <div class="uk-grid uk-grid-match uk-grid-medium" uk-grid>
             <div class="uk-width-expand">
-                <div class="home__luotdoc__card uk-card uk-card-body border-20 uk-light uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/luotdoc/bg.jpeg" uk-img>
-                    <div class="uk-text-center">
-                        <img src="about:blank" uk-img data-src="images/luotdoc/h1-img1.png" alt="">
-                    </div>
-                    <div class="item-12px home__luotdoc__card__txt1 fz-12 line-height-171 be-vietnam-pro-semibold uk-text-uppercase"><a href="">Khám phá ngay</a></div>
-                    <div class="item-22px uk-flex-bottom" uk-grid>
-                        <div class="uk-width-expand">
-                            <h3 class="home__luotdoc__card__title fz-36 be-vietnam-pro-semibold line-height-120">
-                                Đầu sách hay <br> nhất tháng 8
-                            </h3>
+                <div class="home__luotdoc__card uk-cover-container uk-card uk-card-body border-20 uk-light uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/luotdoc/bg.jpeg" uk-img>
+                    <div class="uk-position-bottom uk-position-z-index uk-position-medium">
+                        <div class="uk-text-center" style="opacity: 0;">
+                            <img src="about:blank" uk-img data-src="images/luotdoc/h1-img1.png" alt="">
                         </div>
-                        <div class="uk-width-auto">
-                            <div class="uk-text-right home__luotdoc__card__txt2 line-height-170 fz-14 be-vietnam-pro-semibold">Nhanh tay trước khi hết nhé</div>
-                            <div class="uk-margin-small-top uk-border-pill home__luotdoc__card__countdown be-vietnam-pro-semibold">
-                                <?php
-                                $datetime = new DateTime();
-                                date_add($datetime, date_interval_create_from_date_string("7 days"));
-                                $date = $datetime->format('c');
-                                //echo $datetime->format('c');
-                                ?>
-                                <div class="uk-grid-small uk-grid-2 uk-child-width-auto uk-flex-middle" uk-grid uk-countdown="date: <?= $date ?>">
-                                    <div>
-                                        <div class="uk-countdown-number uk-countdown-days fz-24"></div>
-                                    </div>
-                                    <div class="uk-countdown-separator fz-24">:</div>
-                                    <div>
-                                        <div class="uk-countdown-number uk-countdown-hours fz-24"></div>
-                                    </div>
-                                    <div class="uk-countdown-separator fz-24">:</div>
-                                    <div>
-                                        <div class="uk-countdown-number uk-countdown-minutes fz-24"></div>
-                                    </div>
-                                    <div class="uk-countdown-separator fz-24">:</div>
-                                    <div>
-                                        <div class="uk-countdown-number uk-countdown-seconds fz-24"></div>
+                        <div style="opacity: 0;" class="item-12px home__luotdoc__card__txt1 fz-12 line-height-171 be-vietnam-pro-semibold uk-text-uppercase"><a href="">Khám phá ngay</a></div>
+                        <div class="item-22px uk-flex-bottom" uk-grid>
+                            <div class="uk-width-expand" style="opacity: 0;">
+                                <h3 class="home__luotdoc__card__title fz-36 be-vietnam-pro-semibold line-height-120">
+                                    Đầu sách hay <br> nhất tháng 8
+                                </h3>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div style="opacity: 0;" class="uk-text-right home__luotdoc__card__txt2 line-height-170 fz-14 be-vietnam-pro-semibold">Nhanh tay trước khi hết nhé</div>
+                                <div class="uk-margin-small-top uk-border-pill home__luotdoc__card__countdown be-vietnam-pro-semibold">
+                                    <?php
+                                    $datetime = new DateTime();
+                                    date_add($datetime, date_interval_create_from_date_string("7 days"));
+                                    $date = $datetime->format('c');
+                                    //echo $datetime->format('c');
+                                    ?>
+                                    <div class="uk-grid-small uk-grid-2 uk-child-width-auto uk-flex-middle" uk-grid uk-countdown="date: <?= $date ?>">
+                                        <div>
+                                            <div class="uk-countdown-number uk-countdown-days fz-24"></div>
+                                        </div>
+                                        <div class="uk-countdown-separator fz-24">:</div>
+                                        <div>
+                                            <div class="uk-countdown-number uk-countdown-hours fz-24"></div>
+                                        </div>
+                                        <div class="uk-countdown-separator fz-24">:</div>
+                                        <div>
+                                            <div class="uk-countdown-number uk-countdown-minutes fz-24"></div>
+                                        </div>
+                                        <div class="uk-countdown-separator fz-24">:</div>
+                                        <div>
+                                            <div class="uk-countdown-number uk-countdown-seconds fz-24"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <img src="images/photo.jpg" alt="" uk-cover="">
+                    <canvas width="900" height="602"></canvas>
                 </div>
             </div>
             <div class="uk-width-auto">
