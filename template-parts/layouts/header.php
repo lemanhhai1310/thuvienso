@@ -215,7 +215,7 @@
             <div class="uk-container">
                 <div uk-navbar>
                     <div class="uk-navbar-left uk-flex-1">
-                        <a href="." class="uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
+                        <a href="." class="uk-navbar-item uk-logo"><img style="height: 60px;" src="images/logo.jpg" alt=""></a>
                         <div class="uk-navbar-item uk-flex-auto">
                             <div class="uk-inline uk-width">
                                 <form class="uk-search uk-search-default uk-width">

@@ -479,7 +479,7 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="" style="color: #966412 !important;" class="width-283px button--1 uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
+                                <a href="" style="color: #fff !important;" class="width-283px button--1 uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
                                     MUA HÀNG
                                     <span class="cuahang__icon cuahang__icon--buy"></span>
                                 </a>
@@ -708,7 +708,7 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="" style="color: #966412 !important;" class="width-283px button--1 uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
+                                <a href="" style="color: #fff !important;" class="width-283px button--1 uk-button uk-button-primary uk-border-pill fz-16 be-vietnam-pro-semibold">
                                     MUA HÀNG
                                     <span class="cuahang__icon cuahang__icon--buy"></span>
                                 </a>

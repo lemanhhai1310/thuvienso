@@ -97,7 +97,7 @@
                     </div>
                     <div class="space-h-44"></div>
                     <a href="." class="dangnhap__btn1 dangnhap__btn1--c2 uk-button uk-button-primary uk-border-pill uk-width">
-                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #000;">Vào trang chủ</span>
+                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #fff;">Vào trang chủ</span>
                     </a>
                 </div>
             </div>

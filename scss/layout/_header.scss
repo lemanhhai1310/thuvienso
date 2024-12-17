@@ -47,6 +47,7 @@
       line-height: 42px;
       text-transform: inherit;
       color: #000 !important;
+      //color: #fff;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -81,6 +82,7 @@
       }
       &--login{
         background: var(--brand-color);
+        color: #fff !important;
         &:before{
           //content: '';
           //display: block;
@@ -277,7 +279,8 @@
               top: 5px;
               bottom: 5px;
               border-radius: 500px;
-              background: rgba(255, 243, 140, 0.50);
+              //background: rgba(255, 243, 140, 0.50);
+              background-color: #fff;
             }
           }
         }
@@ -286,7 +289,8 @@
         >li{
           >a{
             gap: 9px;
-            color: #000;
+            //color: #000;
+            color: rgba(255, 255, 255, .7);
             font-size: 16px;
             font-weight: 600;
             text-transform: inherit;
@@ -297,7 +301,8 @@
           &.uk-active,
           &:hover{
             >a{
-              color: #966412;
+              //color: #966412;
+              color: rgba(255, 255, 255, .9);
             }
           }
         }

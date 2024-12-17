@@ -30,7 +30,7 @@
                             <div class="uk-navbar-right">
                                 <div class="uk-navbar-item">
                                     <a href="" class="sachdamua__btn uk-button uk-button-primary uk-border-pill" style="padding-right: 17px;gap: 12px">
-                                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #966412;">Nạp thêm</span>
+                                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #fff;">Nạp thêm</span>
                                         <span class="icon24 icon24--plus"></span>
                                     </a>
                                 </div>
@@ -128,7 +128,7 @@
                                     <div class="uk-cover-container border-16">
                                         <img class="uk-transition-scale-up uk-transition-opaque" src="about:blank" uk-img data-src="https://picsum.photos/280/430/?random=<?= $i ?>" alt="" uk-cover>
                                         <canvas width="230" height="344"></canvas>
-                                        <span class="home__sachmoi__label uk-position-top-right fz-20 be-vietnam-pro-semibold" style="color: #704500;">-20<span class="fz-12">%</span></span>
+                                        <span class="home__sachmoi__label uk-position-top-right fz-20 be-vietnam-pro-semibold" style="color: #fff;">-20<span class="fz-12">%</span></span>
                                         <a href="chi_tiet_sach.php" class="uk-position-cover"></a>
                                     </div>
                                     <div class="item-15px">

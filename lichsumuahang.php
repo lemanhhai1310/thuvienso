@@ -30,7 +30,7 @@
                             <div class="uk-navbar-right">
                                 <div class="uk-navbar-item">
                                     <a href="" class="sachdamua__btn uk-button uk-button-primary uk-border-pill" style="padding-right: 17px;gap: 12px">
-                                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #966412;">Nạp thêm</span>
+                                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #fff;">Nạp thêm</span>
                                         <span class="icon24 icon24--plus"></span>
                                     </a>
                                 </div>

@@ -22,7 +22,7 @@
                     <div class="uk-cover-container border-16">
                         <img class="uk-transition-scale-up uk-transition-opaque" src="about:blank" uk-img data-src="https://picsum.photos/280/430/?random=<?= $i ?>" alt="" uk-cover>
                         <canvas width="280" height="430"></canvas>
-                        <span class="home__sachmoi__label uk-position-top-right fz-20 be-vietnam-pro-semibold" style="color: #704500;">-20<span class="fz-12">%</span></span>
+                        <span class="home__sachmoi__label uk-position-top-right fz-20 be-vietnam-pro-semibold" style="color: #fff;">-20<span class="fz-12">%</span></span>
                         <a href="chi_tiet_sach.php" class="uk-position-cover"></a>
                     </div>
                     <div class="item-15px">

@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <a href="dadangnhap.php" class="dangnhap__btn1 dangnhap__btn1--c2 uk-button uk-button-primary uk-border-pill uk-width uk-margin-top">
-                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #000;">Đăng nhập</span>
+                        <span class="fz-16 be-vietnam-pro-semibold" style="color: #fff;">Đăng nhập</span>
                     </a>
                     <div class="space-h-12"></div>
                     <div class="uk-grid uk-flex-middle uk-grid-12" uk-grid>

@@ -1,7 +1,8 @@
 .thongtintaikhoan {
   &__btnSave{
     text-transform: inherit;
-    @extend .text-966412;
+    //@extend .text-966412;
+    color: #fff;
     @extend .fz-16;
     @extend .be-vietnam-pro-semibold;
     line-height: 40px;

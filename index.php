@@ -615,7 +615,7 @@
             </div>
             <div class="uk-width-auto">
                 <div class="uk-box-sizing-content width-326px home__top10__card uk-card uk-card-body border-20" style="width: 326px !important;">
-                    <div class="home__top10__card__heading border-10"><h2 class="fz-20 be-vietnam-pro-semibold uk-margin-remove">Top 10 theo lượt đọc</h2></div>
+                    <div class="home__top10__card__heading border-10 uk-light"><h2 class="fz-20 be-vietnam-pro-semibold uk-margin-remove">Top 10 theo lượt đọc</h2></div>
                     <div class="home__top10__card__body">
                         <?php
                         $name = [
