@@ -1474,6 +1474,10 @@
   color: #444;
 }
 
+.text-2A2928 {
+  color: #2A2928;
+}
+
 .item-2px:nth-child(n+2) {
   margin-top: 0.125rem;
 }
