@@ -1,0 +1,17 @@
+.tintuc {
+  &__card{
+    padding: 20px;
+    border: 1px solid var(--Divider, #EBE9E3);
+    //min-height: 735px;
+  }
+  &__sidebar{
+    &__item{
+      $x:16px;
+      padding-top: #{$x};
+      border-top: 1px solid var(--Divider, #EBE9E3);
+      &:nth-child(n+2){
+        margin-top: #{$x};
+      }
+    }
+  }
+}
