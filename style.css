@@ -1478,6 +1478,10 @@
   color: #2A2928;
 }
 
+.text-FFD448 {
+  color: #FFD448;
+}
+
 .item-2px:nth-child(n+2) {
   margin-top: 0.125rem;
 }
@@ -3394,6 +3398,17 @@
 }
 .tintuc__sidebar__item:nth-child(n+2) {
   margin-top: 16px;
+}
+
+.danhsachtacgia__card__overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+.danhsachtacgia__card__title {
+  transition: 0.3s ease-out;
+  transform: translateY(24px);
+}
+.danhsachtacgia__card:hover .danhsachtacgia__card__title {
+  transform: translateY(0);
 }
 
 /*# sourceMappingURL=style.css.map */

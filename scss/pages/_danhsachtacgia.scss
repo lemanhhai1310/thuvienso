@@ -1,0 +1,14 @@
+.danhsachtacgia {
+  &__card{
+    &__overlay{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+    }
+    &__title{
+      transition: .3s ease-out;
+      transform: translateY(24px);
+      .danhsachtacgia__card:hover &{
+        transform: translateY(0);
+      }
+    }
+  }
+}
