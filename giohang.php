@@ -95,20 +95,38 @@
                                             <div class="uk-width-auto">
                                                 <div class="uk-grid uk-grid-50 uk-flex-middle" uk-grid>
                                                     <div>
-                                                        <div class="uk-inline">
-                                                            <button class="chi_tiet_sach__btnDropnav uk-button uk-button-small uk-button-default uk-border-pill" type="button">
-                                                                <span>1 Tháng</span>
-                                                                <span uk-drop-parent-icon></span>
-                                                            </button>
-                                                            <div class="uk-card uk-card-default" uk-drop="mode: click">
-                                                                <ul class="uk-nav uk-dropdown-nav">
-                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> 1 Tháng</label></li>
-                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> 3 Tháng</label></li>
-                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> 6 Tháng</label></li>
-                                                                    <li><label><input class="uk-radio" type="radio" name="radio2"> Vĩnh viễn</label></li>
-                                                                </ul>
+                                                        <?php if ($i==0): ?>
+                                                            <div class="uk-grid-12 uk-grid uk-flex-middle" uk-grid>
+                                                                <div>
+                                                                    <div class="chi_tiet_sach__btn2">
+                                                                        <span class="icon16 icon16--minus"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="fz-12 be-vietnam-pro-medium uk-text-center" style="color: #000;width: 20px;">1</div>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="chi_tiet_sach__btn2">
+                                                                        <span class="icon16 icon16--plus"></span>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                        </div>
+                                                        <?php else: ?>
+                                                            <div class="uk-inline">
+                                                                <button class="chi_tiet_sach__btnDropnav uk-button uk-button-small uk-button-default uk-border-pill" type="button">
+                                                                    <span>1 Tháng</span>
+                                                                    <span uk-drop-parent-icon></span>
+                                                                </button>
+                                                                <div class="uk-card uk-card-default" uk-drop="mode: click">
+                                                                    <ul class="uk-nav uk-dropdown-nav">
+                                                                        <li><label><input class="uk-radio" type="radio" name="radio2"> 1 Tháng</label></li>
+                                                                        <li><label><input class="uk-radio" type="radio" name="radio2"> 3 Tháng</label></li>
+                                                                        <li><label><input class="uk-radio" type="radio" name="radio2"> 6 Tháng</label></li>
+                                                                        <li><label><input class="uk-radio" type="radio" name="radio2"> Vĩnh viễn</label></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        <?php endif; ?>
                                                     </div>
                                                     <div>
                                                         <div class="uk-grid uk-flex-middle" uk-grid>
