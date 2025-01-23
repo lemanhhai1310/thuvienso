@@ -1442,7 +1442,7 @@
   color: #F19541;
 }
 
-.text-966412, .thongtinchuyenkhoan__btnHome:hover {
+.text-966412, .thongtinchuyenkhoan__btnHome:hover, .sachdamua__dropdown .uk-nav > li:hover > a, .sachdamua__dropdown .uk-nav > li.uk-active > a {
   color: #966412;
 }
 
@@ -3409,6 +3409,13 @@
 }
 .danhsachtacgia__card:hover .danhsachtacgia__card__title {
   transform: translateY(0);
+}
+
+.chitiettacgia__txt {
+  padding-left: 28px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cg clip-path='url(%23clip0_11931_249877)'%3E%3Cpath d='M9.99935 6.66406V7.4974M9.99935 9.58073V13.3307M9.99935 18.3307C14.6017 18.3307 18.3327 14.5998 18.3327 9.9974C18.3327 5.39502 14.6017 1.66406 9.99935 1.66406C5.39698 1.66406 1.66602 5.39502 1.66602 9.9974C1.66602 14.5998 5.39698 18.3307 9.99935 18.3307Z' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_11931_249877'%3E%3Crect width='20' height='20' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: top 2px left;
 }
 
 /*# sourceMappingURL=style.css.map */
