@@ -1,4 +1,16 @@
 .chi_tiet_sach {
+  &__comment{
+    &__item{
+      padding: 12px;
+      border: 1px solid #E6E6E6;
+      //min-height: 63px;
+    }
+    &__textarea{
+      border: 1px solid #F6F6F6;
+
+      background: #F6F6F6;
+    }
+  }
   &__navbar{
     background: #FFF;
     box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.10);
