@@ -1,4 +1,4 @@
-<?php $data["title"] = "Cửa hàng"; ?>
+<?php $data["title"] = "Tài liệu"; ?>
 <?php $isHome = false; ?>
 <?php $isLogin = false; ?>
 <?php $bodyClass = '' ?>
