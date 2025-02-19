@@ -43,3 +43,12 @@
 .fz-54{
   @include font-size(54px);
 }
+
+$sizes:(
+        28px,
+);
+@each $i in $sizes {
+  .fz-#{$i}{
+    @include font-size($i);
+  }
+}

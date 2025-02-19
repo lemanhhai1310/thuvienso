@@ -1,0 +1,83 @@
+.tailieu{
+  &__nav{
+    $x:12px;
+    &__li{
+
+      border-top: 1px solid #EBE9E3;
+      &:nth-child(n+2){
+
+      }
+      .uk-nav-sub > &{
+        background-position: center left;
+        background-repeat: no-repeat;
+        padding-left: 14px;
+        background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='6' height='6' rx='3' fill='%23CCCCCC'/%3E%3C/svg%3E%0A");
+        &:hover{
+          background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='6' height='6' rx='3' fill='%23966412'/%3E%3C/svg%3E%0A");
+        }
+      }
+    }
+    &__a{
+      padding: #{$x} 0 !important;
+      @extend .fz-14;
+      @extend .be-vietnam-pro-medium;
+      color: #5E5D5A !important;
+      justify-content: space-between;
+      &[aria-expanded="false"]{
+        color: var(--800, #2A2928) !important;
+      }
+      &[aria-expanded="true"],
+      &:hover{
+        color: #966412 !important;
+      }
+      &::after{
+        content: var(--data-num);
+        @extend .be-vietnam-pro-light;
+        @extend .line-height-142;
+        color: currentColor;
+      }
+    }
+  }
+  &__content{
+    &__star{
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-position: center;
+      &:nth-child(n+2){
+        margin-left: 1px;
+      }
+      &--on{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M6 0.5L7.34708 4.6459H11.7063L8.17963 7.2082L9.52671 11.3541L6 8.7918L2.47329 11.3541L3.82037 7.2082L0.293661 4.6459H4.65292L6 0.5Z' fill='%23FFCC00'/%3E%3C/svg%3E");
+      }
+      &--off{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M6 0.5L7.34708 4.6459H11.7063L8.17963 7.2082L9.52671 11.3541L6 8.7918L2.47329 11.3541L3.82037 7.2082L0.293661 4.6459H4.65292L6 0.5Z' fill='%23999'/%3E%3C/svg%3E");
+      }
+    }
+    &__box{
+      &:nth-child(n+2){
+        $x:12px;
+        display: flex;
+        align-items: center;
+        margin-left: #{$x};
+        &:before{
+          margin-right: #{$x};
+          content: "";
+          width: 1px;
+          height: 12px;
+          display: inline-flex;
+          background: var(--brand-color-5, #FFF38C);
+        }
+      }
+    }
+    &__item{
+      $x:16px;
+      &:nth-child(n+2){
+        padding-top: #{$x};
+        margin-top: #{$x};
+        border-top: 1px solid #DDE5EF;
+      }
+    }
+  }
+}

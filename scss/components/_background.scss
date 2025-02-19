@@ -22,3 +22,35 @@
 .background-064EFA{
   background: #064EFA;
 }
+$colors: (
+        '000-FFF': rgba(0, 0, 0, 0.50),
+        'EFE7CA': #EFE7CA,
+        'FFFACC': #FFFACC,
+        'F2F4F6': #F2F4F6,
+        'EDEBFC': #EDEBFC,
+        'E9F9FD': #E9F9FD,
+        'E8F6E1': #E8F6E1,
+        'FBF1E6': #FBF1E6,
+        'FFF': #FFF,
+        'F6F6F6': #F6F6F6,
+        'F7F7F7': #F7F7F7,
+        'E5E5E5': #E5E5E5,
+        'F65D4E': #F65D4E,
+        '966412': #966412,
+        '0CB0A7': #0CB0A7,
+        'E8FFF3': #E8FFF3,
+        'FCD9E2': #FCD9E2,
+        'E6E6E6': #E6E6E6,
+        'E40362': #E40362,
+        'F7F7F8': #F7F7F8,
+        '1B1B1B': #1B1B1B,
+        '000': #000,
+        '20232D': #20232D,
+        'FFFCE8': #FFFCE8,
+        'DFDFDF': #DFDFDF,
+);
+@each $name,$value in $colors {
+  .bg-#{$name} {
+    background: $value;
+  }
+}

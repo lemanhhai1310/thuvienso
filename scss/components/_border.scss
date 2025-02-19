@@ -22,3 +22,39 @@
 .border-6{
   border-radius: 6px;
 }
+
+$sizes:(
+        2px,
+        4px,
+        6px,
+        8px,
+        10px,
+        12px,
+        15px,
+        16px,
+        20px,
+);
+@each $i in $sizes {
+  .rounded-#{$i}{
+    border-radius: #{$i};
+  }
+}
+.bd-1-E6E6E6{
+  border: var(----f1-number-1, 1px) solid var(--200, #E6E6E6);
+}
+.bd-1-DDE5EF{
+  border: var(----f1-number-1, 1px) solid var(--200, #DDE5EF);
+}
+.bd-1-E5E5E5{
+  border: var(----f1-number-1, 1px) solid var(--200, #E5E5E5);
+}
+.bd-1-F6F6F6{
+  border: var(----f1-number-1, 1px) solid var(--200, #F6F6F6);
+}
+.bd-1-EBE9E3{
+  border: var(----f1-number-1, 1px) solid var(--200, #EBE9E3);
+}
+
+.bd-top-1-DDE5EF{
+  border: var(----f1-number-1, 1px) solid var(--200, #DDE5EF);
+}
