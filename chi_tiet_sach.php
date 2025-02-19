@@ -680,7 +680,7 @@
         <div class="uk-width-expand">
             <div class="uk-text-center line-height-125 text-9A96AA be-vietnam-pro-semibold">Hãy cho chúng mình biết độ yêu thích của bạn với tựa sách này nha.</div>
             <div class="space-h-12"></div>
-            <div class="uk-child-width-auto uk-flex-center uk-grid-8" uk-grid>
+            <div class="uk-child-width-auto uk-flex-center uk-grid-8 uk-hidden" uk-grid>
                 <div>
                     <div class="width-104px uk-text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
@@ -721,6 +721,39 @@
                         <div class="fz-14 be-vietnam-pro-medium text-9A96AA">Tuyệt vời</div>
                     </div>
                 </div>
+            </div>
+            <div class="rates uk-grid uk-flex-center uk-grid-collapse row-gap-4 uk-child-width-auto uk-flex-row-reverse" uk-grid>
+                <input id="rate-5" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Tuyệt vời">
+                <label for="rate-5" class="rates__icon"></label>
+
+                <input id="rate-4" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Thích">
+                <label for="rate-4" class="rates__icon"></label>
+
+                <input id="rate-3" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Bình thường">
+                <label for="rate-3" class="rates__icon"></label>
+
+                <input id="rate-2" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Không thích">
+                <label for="rate-2" class="rates__icon"></label>
+
+                <input id="rate-1" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Thất vọng">
+                <label for="rate-1" class="rates__icon"></label>
+
+                <div class="uk-width uk-text-center rates__txt fz-14 be-vietnam-pro-medium text-9A96AA" data-txt="Please rate this game"></div>
+                <script>
+                    let element = document.querySelector(".rates__txt");
+                    document.querySelectorAll('.rates__radio').forEach((el)=>{
+                        console.log(el.getAttribute('data-text'));
+                    });
+
+                    document.querySelectorAll('.rates__icon').forEach((el)=>{
+                        el.addEventListener('mouseover',(event)=>{
+                            console.log(event)
+                            var x = event.target.previousElementSibling.getAttribute('data-text');
+                            console.log(x);
+                            element.setAttribute('data-txt',x);
+                        })
+                    });
+                </script>
             </div>
             <textarea class="chi_tiet_sach__comment__textarea uk-textarea item-24px border-10 fz-14 be-vietnam-pro-semibold text-9A96AA" rows="5" placeholder="Để lại bình luận của bạn..." aria-label="Để lại bình luận của bạn..."></textarea>
             <div class="uk-text-right item-12px">

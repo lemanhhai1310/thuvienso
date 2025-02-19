@@ -1,3 +1,13 @@
+.row-gap-4 {
+  &.uk-grid-margin{
+    margin-top: 4px;
+  }
+  >*{
+    &.uk-grid-margin{
+      margin-top: 4px;
+    }
+  }
+}
 .row-gap-16 {
   &.uk-grid-margin{
     margin-top: 16px;

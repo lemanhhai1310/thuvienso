@@ -16,13 +16,13 @@
 
   <!--CSS-->
   <link rel="stylesheet" href="dist/css/uikit.min.css" />
-  <link rel="stylesheet" href="style.css?v=1738685837">
+  <link rel="stylesheet" href="style.css?v=1739958422">
 
   <!--JS-->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
-  <script src="js/app.js?v=1738685837"></script>
+  <script src="js/app.js?v=1739958422"></script>
 
   <style>
     .be-vietnam-pro-thin {
@@ -1461,7 +1461,7 @@
       <div class="uk-width-expand">
         <div class="uk-text-center line-height-125 text-9A96AA be-vietnam-pro-semibold">Hãy cho chúng mình biết độ yêu thích của bạn với tựa sách này nha.</div>
         <div class="space-h-12"></div>
-        <div class="uk-child-width-auto uk-flex-center uk-grid-8" uk-grid>
+        <div class="uk-child-width-auto uk-flex-center uk-grid-8 uk-hidden" uk-grid>
           <div>
             <div class="width-104px uk-text-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
@@ -1503,6 +1503,39 @@
             </div>
           </div>
         </div>
+        <div class="rates uk-grid uk-flex-center uk-grid-collapse row-gap-4 uk-child-width-auto uk-flex-row-reverse" uk-grid>
+          <input id="rate-5" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Tuyệt vời">
+          <label for="rate-5" class="rates__icon"></label>
+
+          <input id="rate-4" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Thích">
+          <label for="rate-4" class="rates__icon"></label>
+
+          <input id="rate-3" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Bình thường">
+          <label for="rate-3" class="rates__icon"></label>
+
+          <input id="rate-2" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Không thích">
+          <label for="rate-2" class="rates__icon"></label>
+
+          <input id="rate-1" class="uk-radio uk-hidden rates__radio" type="radio" name="rate" data-text="Thất vọng">
+          <label for="rate-1" class="rates__icon"></label>
+
+          <div class="uk-width uk-text-center rates__txt fz-14 be-vietnam-pro-medium text-9A96AA" data-txt="Please rate this game"></div>
+          <script>
+            let element = document.querySelector(".rates__txt");
+            document.querySelectorAll('.rates__radio').forEach((el)=>{
+              console.log(el.getAttribute('data-text'));
+            });
+
+            document.querySelectorAll('.rates__icon').forEach((el)=>{
+              el.addEventListener('mouseover',(event)=>{
+                console.log(event)
+                var x = event.target.previousElementSibling.getAttribute('data-text');
+                console.log(x);
+                element.setAttribute('data-txt',x);
+              })
+            });
+          </script>
+        </div>
         <textarea class="chi_tiet_sach__comment__textarea uk-textarea item-24px border-10 fz-14 be-vietnam-pro-semibold text-9A96AA" rows="5" placeholder="Để lại bình luận của bạn..." aria-label="Để lại bình luận của bạn..."></textarea>
         <div class="uk-text-right item-12px">
           <button class="thongtintaikhoan__btnSave uk-button uk-border-pill">Gửi bình luận</button>
@@ -1543,7 +1576,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                     </svg>
-                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 40%">
+                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 88%">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                         <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                       </svg>
@@ -1600,7 +1633,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                     </svg>
-                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 17%">
+                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 79%">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                         <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                       </svg>
@@ -1657,7 +1690,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                     </svg>
-                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 74%">
+                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 93%">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                         <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                       </svg>
@@ -1714,7 +1747,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                     </svg>
-                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 45%">
+                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 35%">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                         <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                       </svg>
@@ -1771,7 +1804,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                     </svg>
-                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 81%">
+                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 87%">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                         <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                       </svg>
@@ -1828,7 +1861,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                     </svg>
-                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 68%">
+                    <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 94%">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                         <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                       </svg>
@@ -1919,7 +1952,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 49%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 17%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -1973,7 +2006,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 67%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 99%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2027,7 +2060,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 65%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 83%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2081,7 +2114,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 29%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 4%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2135,7 +2168,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 2%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 32%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2189,7 +2222,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 28%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 87%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2243,7 +2276,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 43%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 25%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2297,7 +2330,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 12%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 58%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2351,7 +2384,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 19%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 99%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2405,7 +2438,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 77%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 19%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2459,7 +2492,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 0%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 55%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2513,7 +2546,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                     <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                   </svg>
-                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 66%">
+                  <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 64%">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                       <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                     </svg>
@@ -2583,7 +2616,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                           <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#999"/>
                         </svg>
-                        <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 26%">
+                        <div class="uk-position-center-left uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 81%">
                           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
                             <path d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z" fill="#FFCC00"/>
                           </svg>
